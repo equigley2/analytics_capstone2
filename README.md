@@ -52,11 +52,11 @@ Example below shows flights from Denver to New York City
 How did the model do? Let's check our R-Squared value.
 
 
-  ![](images/test_scoreDtNY2.png)
+![](images/test_scoreDtNY2.png)
 
 Average predicted delay flying from Denver to NYC.
 
-  ![](images/predicted_meanDtNY2.png)
+![](images/predicted_meanDtNY2.png)
 
 
 Q-Q Plot
@@ -64,7 +64,7 @@ Q-Q Plot
 * Values above and below the red line indicate these points are more extreme than we would expect with a normal distribution
 
 
-  ![](images/qq_pltDtNY.png)
+![](images/qq_pltDtNY.png)
 
 
 Variance Inflation Factors
