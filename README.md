@@ -9,8 +9,10 @@
 * Carrier will be a good predictor going forward
 * Day of week will not be as strong of a predictor
 
- 	<img src='images/carrier_violinDtNY.png'>
-  [](images/day_of_week_violinDtNY.png)
+<img src='images/carrier_violinDtNY.png'>
+  
+<img src = 'images/day_of_week_violinDtNY.png'>
+  
 <h2>Feature Engineering
 * Selected features to start with
 * Filled columns with the mean, the rest with 0s
