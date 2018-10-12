@@ -9,7 +9,7 @@
 * Carrier will be a good predictor going forward
 * Day of week will not be as strong of a predictor
 
- 	![](./carrier_violinDtNY.png)
+ 	![](images/carrier_violinDtNY.png)
   ![](./day_of_week_violinDtNY.png)
 <h2>Feature Engineering
 * Selected features to start with
