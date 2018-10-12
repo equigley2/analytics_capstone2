@@ -1,6 +1,7 @@
 <h2>Data: Airline flight data from the Bureau of Transportation</h2>
 
-Example below shows flights from Denver to New York City
+4.5 million rows of US flight data. 
+Examples below show flights from Denver to New York City.
 
 <h2> Goal:</h2>
 
