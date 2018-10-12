@@ -74,6 +74,7 @@ Variance Inflation Factors
 * Measures how much variance increases if your features are correlated
 * All VIFs are < 10. If they were over 10, this would signal high multicollinearity
 
+<img src = 'images/vifsDtNY2.png'>
 
 <h2>Future Work</h2>
   
