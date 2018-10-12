@@ -1,0 +1,3807 @@
+Last login: Wed Oct 10 11:27:38 on ttys000
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+    
+In [2]: run plane_capstone_one_month_test.py
+
+In [3]: run plane_capstone_one_month_test.py
+
+In [4]: run plane_capstone_one_month_test.py
+
+In [5]: run plane_capstone_one_month_test.py
+
+In [6]: run plane_capstone_one_month_test.py
+
+In [7]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     51     plt.savefig(filename)
+     52 
+---> 53 fig1, ax1 = plt.figure(figsize=(14,8))
+     54 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY_GROUP'])
+     55 
+
+TypeError: 'Figure' object is not iterable
+
+In [8]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     50 
+     51 
+---> 52 fig1, ax1 = plt.figure(figsize=(14,8))
+     53 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY_GROUP'])
+     54 filename = "./violin.png"
+
+TypeError: 'Figure' object is not iterable
+
+In [9]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     50 
+     51 
+---> 52 fig, ax1 = plt.figure(figsize=(14,8))
+     53 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY_GROUP'])
+     54 filename = "./violin.png"
+
+TypeError: 'Figure' object is not iterable
+
+In [10]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     50 
+     51 
+---> 52 fig, ax = plt.figure(figsize=(14,8))
+     53 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY_GROUP'])
+     54 filename = "./violin.png"
+
+TypeError: 'Figure' object is not iterable
+
+In [11]: run plane_capstone_one_month_test.py
+
+In [12]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py:107: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  warnings.warn(message, mplDeprecation, stacklevel=1)
+
+In [13]: run plane_capstone_one_month_test.py
+
+In [14]: run plane_capstone_one_month_test.py
+
+In [15]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     68 ax3 = fig.add_subplot(311)
+     69 colormap = sns.diverging_palette(220, 10, as_cmap=True)
+---> 70 mask = np.array(corr)
+     71 mask[np.tril_indices_from(mask)] = False
+     72 sns.heatmap(corr, cmap=colormap, annot=True, fmt=".2f",mask=mask)
+
+NameError: name 'corr' is not defined
+
+In [16]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     69 corr_matrix()
+     70 colormap = sns.diverging_palette(220, 10, as_cmap=True)
+---> 71 mask = np.array(corr)
+     72 mask[np.tril_indices_from(mask)] = False
+     73 sns.heatmap(corr, cmap=colormap, annot=True, fmt=".2f",mask=mask)
+
+NameError: name 'corr' is not defined
+
+In [17]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     70 corr_matrix()
+     71 colormap = sns.diverging_palette(220, 10, as_cmap=True)
+---> 72 mask = np.array(corr)
+     73 mask[np.tril_indices_from(mask)] = False
+     74 sns.heatmap(corr, cmap=colormap, annot=True, fmt=".2f",mask=mask)
+
+NameError: name 'corr' is not defined
+
+In [18]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     62 plt.savefig(filename)
+     63 
+---> 64 def corr_matrix(corr, cmap=colormap, annot=True, fmt=".2f",mask=mask):
+     65     sns.heatmap(corr, cmap, annot, fmt, mask)
+     66 
+
+NameError: name 'colormap' is not defined
+
+In [19]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     62 plt.savefig(filename)
+     63 
+---> 64 def corr_matrix(corr, cmap=colormap, annot=True, fmt=".2f",mask=mask):
+     65     sns.heatmap(corr, cmap, annot, fmt, mask)
+     66 
+
+NameError: name 'colormap' is not defined
+
+In [20]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     62 plt.savefig(filename)
+     63 
+---> 64 def corr_matrix(corr, cmap=colormap, annot=True, fmt=".2f",mask=mask):
+     65     sns.heatmap(corr, cmap, annot, fmt, mask)
+     66 
+
+NameError: name 'colormap' is not defined
+
+In [21]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     62 plt.savefig(filename)
+     63 
+---> 64 def corr_matrix(corr, annot=True, fmt=".2f",mask=mask):
+     65     sns.heatmap(corr, annot, fmt, mask)
+     66 
+
+NameError: name 'mask' is not defined
+
+In [22]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     62 plt.savefig(filename)
+     63 
+---> 64 def corr_matrix(corr, annot=True, fmt=".2f",mask=mask):
+     65     sns.heatmap(corr, annot, fmt, mask)
+     66 
+
+NameError: name 'mask' is not defined
+
+In [23]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     74 plt.xticks(range(len(corr.columns)), corr.columns);
+     75 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 76 corr_matrix(corr,mask, annot, fmt)
+     77 filename = "./correlation_matrix.png"
+     78 plt.savefig(filename)
+
+NameError: name 'annot' is not defined
+
+In [24]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     76 plt.xticks(range(len(corr.columns)), corr.columns);
+     77 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 78 corr_matrix(corr,mask)
+     79 filename = "./correlation_matrix.png"
+     80 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask)
+     65 
+     66 def corr_matrix(corr, mask):
+---> 67     sns.heatmap(corr, mask)
+     68 
+     69 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    526     if square:
+    527         ax.set_aspect("equal")
+--> 528     plotter.plot(ax, cbar_ax, kwargs)
+    529     return ax
+    530 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in plot(self, ax, cax, kws)
+    283         # Draw the heatmap
+    284         mesh = ax.pcolormesh(self.plot_data, vmin=self.vmin, vmax=self.vmax,
+--> 285                              cmap=self.cmap, **kws)
+    286 
+    287         # Set the axis limits
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py in inner(ax, *args, **kwargs)
+   1853                         "the Matplotlib list!)" % (label_namer, func.__name__),
+   1854                         RuntimeWarning, stacklevel=2)
+-> 1855             return func(ax, *args, **kwargs)
+   1856 
+   1857         inner.__doc__ = _add_data_doc(inner.__doc__,
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/axes/_axes.py in pcolormesh(self, *args, **kwargs)
+   5950         collection.set_cmap(cmap)
+   5951         collection.set_norm(norm)
+-> 5952         collection.set_clim(vmin, vmax)
+   5953         collection.autoscale_None()
+   5954 
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in set_clim(self, vmin, vmax)
+    315                 pass
+    316         if vmin is not None:
+--> 317             self.norm.vmin = colors._sanitize_extrema(vmin)
+    318         if vmax is not None:
+    319             self.norm.vmax = colors._sanitize_extrema(vmax)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/colors.py in _sanitize_extrema(ex)
+     99         return ex
+    100     try:
+--> 101         ret = np.asscalar(ex)
+    102     except AttributeError:
+    103         ret = float(ex)
+
+~/anaconda3/lib/python3.6/site-packages/numpy/lib/type_check.py in asscalar(a)
+    480 
+    481     """
+--> 482     return a.item()
+    483 
+    484 #-----------------------------------------------------------------------------
+
+ValueError: can only convert an array of size 1 to a Python scalar
+
+In [25]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+^Z
+[1]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     75 plt.xticks(range(len(corr.columns)), corr.columns);
+     76 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 77 corr_matrix(corr,mask)
+     78 filename = "./correlation_matrix.png"
+     79 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, annot, fmt)
+     64 
+     65 def corr_matrix(corr, mask, annot=True, fmt=".2f"):
+---> 66     sns.heatmap(corr, mask, annot, fmt)
+     67 
+     68 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    515     plotter = _HeatMapper(data, vmin, vmax, cmap, center, robust, annot, fmt,
+    516                           annot_kws, cbar, cbar_kws, xticklabels,
+--> 517                           yticklabels, mask)
+    518 
+    519     # Add the pcolormesh kwargs here
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in __init__(self, data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, cbar, cbar_kws, xticklabels, yticklabels, mask)
+    166         # Determine good default values for the colormapping
+    167         self._determine_cmap_params(plot_data, vmin, vmax,
+--> 168                                     cmap, center, robust)
+    169 
+    170         # Sort out the annotations
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in _determine_cmap_params(self, plot_data, vmin, vmax, cmap, center, robust)
+    217                 self.cmap = cm.icefire
+    218         elif isinstance(cmap, string_types):
+--> 219             self.cmap = mpl.cm.get_cmap(cmap)
+    220         elif isinstance(cmap, list):
+    221             self.cmap = mpl.colors.ListedColormap(cmap)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in get_cmap(name, lut)
+    166         raise ValueError(
+    167             "Colormap %s is not recognized. Possible values are: %s"
+--> 168             % (name, ', '.join(sorted(cmap_d))))
+    169 
+    170 
+
+ValueError: Colormap .2f is not recognized. Possible values are: Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r, CMRmap, CMRmap_r, Dark2, Dark2_r, GnBu, GnBu_r, Greens, Greens_r, Greys, Greys_r, OrRd, OrRd_r, Oranges, Oranges_r, PRGn, PRGn_r, Paired, Paired_r, Pastel1, Pastel1_r, Pastel2, Pastel2_r, PiYG, PiYG_r, PuBu, PuBuGn, PuBuGn_r, PuBu_r, PuOr, PuOr_r, PuRd, PuRd_r, Purples, Purples_r, RdBu, RdBu_r, RdGy, RdGy_r, RdPu, RdPu_r, RdYlBu, RdYlBu_r, RdYlGn, RdYlGn_r, Reds, Reds_r, Set1, Set1_r, Set2, Set2_r, Set3, Set3_r, Spectral, Spectral_r, Wistia, Wistia_r, YlGn, YlGnBu, YlGnBu_r, YlGn_r, YlOrBr, YlOrBr_r, YlOrRd, YlOrRd_r, afmhot, afmhot_r, autumn, autumn_r, binary, binary_r, bone, bone_r, brg, brg_r, bwr, bwr_r, cividis, cividis_r, cool, cool_r, coolwarm, coolwarm_r, copper, copper_r, cubehelix, cubehelix_r, flag, flag_r, gist_earth, gist_earth_r, gist_gray, gist_gray_r, gist_heat, gist_heat_r, gist_ncar, gist_ncar_r, gist_rainbow, gist_rainbow_r, gist_stern, gist_stern_r, gist_yarg, gist_yarg_r, gnuplot, gnuplot2, gnuplot2_r, gnuplot_r, gray, gray_r, hot, hot_r, hsv, hsv_r, icefire, icefire_r, inferno, inferno_r, jet, jet_r, magma, magma_r, mako, mako_r, nipy_spectral, nipy_spectral_r, ocean, ocean_r, pink, pink_r, plasma, plasma_r, prism, prism_r, rainbow, rainbow_r, rocket, rocket_r, seismic, seismic_r, spring, spring_r, summer, summer_r, tab10, tab10_r, tab20, tab20_r, tab20b, tab20b_r, tab20c, tab20c_r, terrain, terrain_r, viridis, viridis_r, vlag, vlag_r, winter, winter_r
+
+In [2]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     75 plt.xticks(range(len(corr.columns)), corr.columns);
+     76 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 77 corr_matrix(corr,mask,colormap)
+     78 filename = "./correlation_matrix.png"
+     79 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     64 
+     65 def corr_matrix(corr, mask, cmap, annot=True, fmt=".2f"):
+---> 66     sns.heatmap(corr, mask, annot, fmt)
+     67 
+     68 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    515     plotter = _HeatMapper(data, vmin, vmax, cmap, center, robust, annot, fmt,
+    516                           annot_kws, cbar, cbar_kws, xticklabels,
+--> 517                           yticklabels, mask)
+    518 
+    519     # Add the pcolormesh kwargs here
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in __init__(self, data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, cbar, cbar_kws, xticklabels, yticklabels, mask)
+    166         # Determine good default values for the colormapping
+    167         self._determine_cmap_params(plot_data, vmin, vmax,
+--> 168                                     cmap, center, robust)
+    169 
+    170         # Sort out the annotations
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in _determine_cmap_params(self, plot_data, vmin, vmax, cmap, center, robust)
+    217                 self.cmap = cm.icefire
+    218         elif isinstance(cmap, string_types):
+--> 219             self.cmap = mpl.cm.get_cmap(cmap)
+    220         elif isinstance(cmap, list):
+    221             self.cmap = mpl.colors.ListedColormap(cmap)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in get_cmap(name, lut)
+    166         raise ValueError(
+    167             "Colormap %s is not recognized. Possible values are: %s"
+--> 168             % (name, ', '.join(sorted(cmap_d))))
+    169 
+    170 
+
+ValueError: Colormap .2f is not recognized. Possible values are: Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r, CMRmap, CMRmap_r, Dark2, Dark2_r, GnBu, GnBu_r, Greens, Greens_r, Greys, Greys_r, OrRd, OrRd_r, Oranges, Oranges_r, PRGn, PRGn_r, Paired, Paired_r, Pastel1, Pastel1_r, Pastel2, Pastel2_r, PiYG, PiYG_r, PuBu, PuBuGn, PuBuGn_r, PuBu_r, PuOr, PuOr_r, PuRd, PuRd_r, Purples, Purples_r, RdBu, RdBu_r, RdGy, RdGy_r, RdPu, RdPu_r, RdYlBu, RdYlBu_r, RdYlGn, RdYlGn_r, Reds, Reds_r, Set1, Set1_r, Set2, Set2_r, Set3, Set3_r, Spectral, Spectral_r, Wistia, Wistia_r, YlGn, YlGnBu, YlGnBu_r, YlGn_r, YlOrBr, YlOrBr_r, YlOrRd, YlOrRd_r, afmhot, afmhot_r, autumn, autumn_r, binary, binary_r, bone, bone_r, brg, brg_r, bwr, bwr_r, cividis, cividis_r, cool, cool_r, coolwarm, coolwarm_r, copper, copper_r, cubehelix, cubehelix_r, flag, flag_r, gist_earth, gist_earth_r, gist_gray, gist_gray_r, gist_heat, gist_heat_r, gist_ncar, gist_ncar_r, gist_rainbow, gist_rainbow_r, gist_stern, gist_stern_r, gist_yarg, gist_yarg_r, gnuplot, gnuplot2, gnuplot2_r, gnuplot_r, gray, gray_r, hot, hot_r, hsv, hsv_r, icefire, icefire_r, inferno, inferno_r, jet, jet_r, magma, magma_r, mako, mako_r, nipy_spectral, nipy_spectral_r, ocean, ocean_r, pink, pink_r, plasma, plasma_r, prism, prism_r, rainbow, rainbow_r, rocket, rocket_r, seismic, seismic_r, spring, spring_r, summer, summer_r, tab10, tab10_r, tab20, tab20_r, tab20b, tab20b_r, tab20c, tab20c_r, terrain, terrain_r, viridis, viridis_r, vlag, vlag_r, winter, winter_r
+
+In [3]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     75 plt.xticks(range(len(corr.columns)), corr.columns);
+     76 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 77 corr_matrix(corr,mask,colormap)
+     78 filename = "./correlation_matrix.png"
+     79 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     64 
+     65 def corr_matrix(corr, mask, cmap, annot=True, fmt="2f"):
+---> 66     sns.heatmap(corr, mask, annot, fmt)
+     67 
+     68 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    515     plotter = _HeatMapper(data, vmin, vmax, cmap, center, robust, annot, fmt,
+    516                           annot_kws, cbar, cbar_kws, xticklabels,
+--> 517                           yticklabels, mask)
+    518 
+    519     # Add the pcolormesh kwargs here
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in __init__(self, data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, cbar, cbar_kws, xticklabels, yticklabels, mask)
+    166         # Determine good default values for the colormapping
+    167         self._determine_cmap_params(plot_data, vmin, vmax,
+--> 168                                     cmap, center, robust)
+    169 
+    170         # Sort out the annotations
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in _determine_cmap_params(self, plot_data, vmin, vmax, cmap, center, robust)
+    217                 self.cmap = cm.icefire
+    218         elif isinstance(cmap, string_types):
+--> 219             self.cmap = mpl.cm.get_cmap(cmap)
+    220         elif isinstance(cmap, list):
+    221             self.cmap = mpl.colors.ListedColormap(cmap)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in get_cmap(name, lut)
+    166         raise ValueError(
+    167             "Colormap %s is not recognized. Possible values are: %s"
+--> 168             % (name, ', '.join(sorted(cmap_d))))
+    169 
+    170 
+
+ValueError: Colormap 2f is not recognized. Possible values are: Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r, CMRmap, CMRmap_r, Dark2, Dark2_r, GnBu, GnBu_r, Greens, Greens_r, Greys, Greys_r, OrRd, OrRd_r, Oranges, Oranges_r, PRGn, PRGn_r, Paired, Paired_r, Pastel1, Pastel1_r, Pastel2, Pastel2_r, PiYG, PiYG_r, PuBu, PuBuGn, PuBuGn_r, PuBu_r, PuOr, PuOr_r, PuRd, PuRd_r, Purples, Purples_r, RdBu, RdBu_r, RdGy, RdGy_r, RdPu, RdPu_r, RdYlBu, RdYlBu_r, RdYlGn, RdYlGn_r, Reds, Reds_r, Set1, Set1_r, Set2, Set2_r, Set3, Set3_r, Spectral, Spectral_r, Wistia, Wistia_r, YlGn, YlGnBu, YlGnBu_r, YlGn_r, YlOrBr, YlOrBr_r, YlOrRd, YlOrRd_r, afmhot, afmhot_r, autumn, autumn_r, binary, binary_r, bone, bone_r, brg, brg_r, bwr, bwr_r, cividis, cividis_r, cool, cool_r, coolwarm, coolwarm_r, copper, copper_r, cubehelix, cubehelix_r, flag, flag_r, gist_earth, gist_earth_r, gist_gray, gist_gray_r, gist_heat, gist_heat_r, gist_ncar, gist_ncar_r, gist_rainbow, gist_rainbow_r, gist_stern, gist_stern_r, gist_yarg, gist_yarg_r, gnuplot, gnuplot2, gnuplot2_r, gnuplot_r, gray, gray_r, hot, hot_r, hsv, hsv_r, icefire, icefire_r, inferno, inferno_r, jet, jet_r, magma, magma_r, mako, mako_r, nipy_spectral, nipy_spectral_r, ocean, ocean_r, pink, pink_r, plasma, plasma_r, prism, prism_r, rainbow, rainbow_r, rocket, rocket_r, seismic, seismic_r, spring, spring_r, summer, summer_r, tab10, tab10_r, tab20, tab20_r, tab20b, tab20b_r, tab20c, tab20c_r, terrain, terrain_r, viridis, viridis_r, vlag, vlag_r, winter, winter_r
+
+In [4]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     75 plt.xticks(range(len(corr.columns)), corr.columns);
+     76 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 77 corr_matrix(corr,mask,colormap)
+     78 filename = "./correlation_matrix.png"
+     79 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     64 
+     65 def corr_matrix(corr, mask, cmap, annot=True, fmt="d"):
+---> 66     sns.heatmap(corr, mask, annot, fmt)
+     67 
+     68 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    515     plotter = _HeatMapper(data, vmin, vmax, cmap, center, robust, annot, fmt,
+    516                           annot_kws, cbar, cbar_kws, xticklabels,
+--> 517                           yticklabels, mask)
+    518 
+    519     # Add the pcolormesh kwargs here
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in __init__(self, data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, cbar, cbar_kws, xticklabels, yticklabels, mask)
+    166         # Determine good default values for the colormapping
+    167         self._determine_cmap_params(plot_data, vmin, vmax,
+--> 168                                     cmap, center, robust)
+    169 
+    170         # Sort out the annotations
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in _determine_cmap_params(self, plot_data, vmin, vmax, cmap, center, robust)
+    217                 self.cmap = cm.icefire
+    218         elif isinstance(cmap, string_types):
+--> 219             self.cmap = mpl.cm.get_cmap(cmap)
+    220         elif isinstance(cmap, list):
+    221             self.cmap = mpl.colors.ListedColormap(cmap)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in get_cmap(name, lut)
+    166         raise ValueError(
+    167             "Colormap %s is not recognized. Possible values are: %s"
+--> 168             % (name, ', '.join(sorted(cmap_d))))
+    169 
+    170 
+
+ValueError: Colormap d is not recognized. Possible values are: Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r, CMRmap, CMRmap_r, Dark2, Dark2_r, GnBu, GnBu_r, Greens, Greens_r, Greys, Greys_r, OrRd, OrRd_r, Oranges, Oranges_r, PRGn, PRGn_r, Paired, Paired_r, Pastel1, Pastel1_r, Pastel2, Pastel2_r, PiYG, PiYG_r, PuBu, PuBuGn, PuBuGn_r, PuBu_r, PuOr, PuOr_r, PuRd, PuRd_r, Purples, Purples_r, RdBu, RdBu_r, RdGy, RdGy_r, RdPu, RdPu_r, RdYlBu, RdYlBu_r, RdYlGn, RdYlGn_r, Reds, Reds_r, Set1, Set1_r, Set2, Set2_r, Set3, Set3_r, Spectral, Spectral_r, Wistia, Wistia_r, YlGn, YlGnBu, YlGnBu_r, YlGn_r, YlOrBr, YlOrBr_r, YlOrRd, YlOrRd_r, afmhot, afmhot_r, autumn, autumn_r, binary, binary_r, bone, bone_r, brg, brg_r, bwr, bwr_r, cividis, cividis_r, cool, cool_r, coolwarm, coolwarm_r, copper, copper_r, cubehelix, cubehelix_r, flag, flag_r, gist_earth, gist_earth_r, gist_gray, gist_gray_r, gist_heat, gist_heat_r, gist_ncar, gist_ncar_r, gist_rainbow, gist_rainbow_r, gist_stern, gist_stern_r, gist_yarg, gist_yarg_r, gnuplot, gnuplot2, gnuplot2_r, gnuplot_r, gray, gray_r, hot, hot_r, hsv, hsv_r, icefire, icefire_r, inferno, inferno_r, jet, jet_r, magma, magma_r, mako, mako_r, nipy_spectral, nipy_spectral_r, ocean, ocean_r, pink, pink_r, plasma, plasma_r, prism, prism_r, rainbow, rainbow_r, rocket, rocket_r, seismic, seismic_r, spring, spring_r, summer, summer_r, tab10, tab10_r, tab20, tab20_r, tab20b, tab20b_r, tab20c, tab20c_r, terrain, terrain_r, viridis, viridis_r, vlag, vlag_r, winter, winter_r
+
+In [5]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     75 plt.xticks(range(len(corr.columns)), corr.columns);
+     76 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 77 corr_matrix(corr,mask,colormap)
+     78 filename = "./correlation_matrix.png"
+     79 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot)
+     64 
+     65 def corr_matrix(corr, mask, cmap, annot=True):
+---> 66     sns.heatmap(corr, mask, annot)
+     67 
+     68 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    526     if square:
+    527         ax.set_aspect("equal")
+--> 528     plotter.plot(ax, cbar_ax, kwargs)
+    529     return ax
+    530 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in plot(self, ax, cax, kws)
+    283         # Draw the heatmap
+    284         mesh = ax.pcolormesh(self.plot_data, vmin=self.vmin, vmax=self.vmax,
+--> 285                              cmap=self.cmap, **kws)
+    286 
+    287         # Set the axis limits
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py in inner(ax, *args, **kwargs)
+   1853                         "the Matplotlib list!)" % (label_namer, func.__name__),
+   1854                         RuntimeWarning, stacklevel=2)
+-> 1855             return func(ax, *args, **kwargs)
+   1856 
+   1857         inner.__doc__ = _add_data_doc(inner.__doc__,
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/axes/_axes.py in pcolormesh(self, *args, **kwargs)
+   5950         collection.set_cmap(cmap)
+   5951         collection.set_norm(norm)
+-> 5952         collection.set_clim(vmin, vmax)
+   5953         collection.autoscale_None()
+   5954 
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in set_clim(self, vmin, vmax)
+    315                 pass
+    316         if vmin is not None:
+--> 317             self.norm.vmin = colors._sanitize_extrema(vmin)
+    318         if vmax is not None:
+    319             self.norm.vmax = colors._sanitize_extrema(vmax)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/colors.py in _sanitize_extrema(ex)
+     99         return ex
+    100     try:
+--> 101         ret = np.asscalar(ex)
+    102     except AttributeError:
+    103         ret = float(ex)
+
+~/anaconda3/lib/python3.6/site-packages/numpy/lib/type_check.py in asscalar(a)
+    480 
+    481     """
+--> 482     return a.item()
+    483 
+    484 #-----------------------------------------------------------------------------
+
+ValueError: can only convert an array of size 1 to a Python scalar
+
+In [6]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     75 plt.xticks(range(len(corr.columns)), corr.columns);
+     76 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 77 corr_matrix(corr,mask,colormap)
+     78 filename = "./correlation_matrix.png"
+     79 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     64 
+     65 def corr_matrix(corr, mask, cmap, annot=True, fmt="summer"):
+---> 66     sns.heatmap(corr, mask, annot, fmt)
+     67 
+     68 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    526     if square:
+    527         ax.set_aspect("equal")
+--> 528     plotter.plot(ax, cbar_ax, kwargs)
+    529     return ax
+    530 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in plot(self, ax, cax, kws)
+    283         # Draw the heatmap
+    284         mesh = ax.pcolormesh(self.plot_data, vmin=self.vmin, vmax=self.vmax,
+--> 285                              cmap=self.cmap, **kws)
+    286 
+    287         # Set the axis limits
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py in inner(ax, *args, **kwargs)
+   1853                         "the Matplotlib list!)" % (label_namer, func.__name__),
+   1854                         RuntimeWarning, stacklevel=2)
+-> 1855             return func(ax, *args, **kwargs)
+   1856 
+   1857         inner.__doc__ = _add_data_doc(inner.__doc__,
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/axes/_axes.py in pcolormesh(self, *args, **kwargs)
+   5950         collection.set_cmap(cmap)
+   5951         collection.set_norm(norm)
+-> 5952         collection.set_clim(vmin, vmax)
+   5953         collection.autoscale_None()
+   5954 
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in set_clim(self, vmin, vmax)
+    315                 pass
+    316         if vmin is not None:
+--> 317             self.norm.vmin = colors._sanitize_extrema(vmin)
+    318         if vmax is not None:
+    319             self.norm.vmax = colors._sanitize_extrema(vmax)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/colors.py in _sanitize_extrema(ex)
+     99         return ex
+    100     try:
+--> 101         ret = np.asscalar(ex)
+    102     except AttributeError:
+    103         ret = float(ex)
+
+~/anaconda3/lib/python3.6/site-packages/numpy/lib/type_check.py in asscalar(a)
+    480 
+    481     """
+--> 482     return a.item()
+    483 
+    484 #-----------------------------------------------------------------------------
+
+ValueError: can only convert an array of size 1 to a Python scalar
+
+In [7]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     36                 'LATE_AIRCRAFT_DELAY','FLIGHTS','DEP_DELAY_GROUP','DEP_TIME_BLK']
+     37 
+---> 38 jan_df2 = jan_df[keep_columns]
+     39 jan_df2 = jan_df2.fillna(value=0)
+     40 
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2677         if isinstance(key, (Series, np.ndarray, Index, list)):
+   2678             # either boolean or fancy integer index
+-> 2679             return self._getitem_array(key)
+   2680         elif isinstance(key, DataFrame):
+   2681             return self._getitem_frame(key)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_array(self, key)
+   2721             return self._take(indexer, axis=0)
+   2722         else:
+-> 2723             indexer = self.loc._convert_to_indexer(key, axis=1)
+   2724             return self._take(indexer, axis=1)
+   2725 
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py in _convert_to_indexer(self, obj, axis, is_setter)
+   1325                 if mask.any():
+   1326                     raise KeyError('{mask} not in index'
+-> 1327                                    .format(mask=objarr[mask]))
+   1328 
+   1329                 return com._values_from_object(indexer)
+
+KeyError: "['DEP_DELAYLATE_AIRCRAFT_DELAY'] not in index"
+
+In [8]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     52 fig = plt.figure(figsize=(14,8))
+     53 ax1 = fig.add_subplot(111)
+---> 54 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY'])
+     55 filename = "./carrier_violin.png"
+     56 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in make_delay_day(ax, x, y)
+     47 
+     48 def make_delay_day(ax, x, y):
+---> 49     sns.violinplot(x,y,ax=ax)
+     50 
+     51 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in violinplot(x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation, ax, **kwargs)
+   2362                              bw, cut, scale, scale_hue, gridsize,
+   2363                              width, inner, split, dodge, orient, linewidth,
+-> 2364                              color, palette, saturation)
+   2365 
+   2366     if ax is None:
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in __init__(self, x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation)
+    555                  color, palette, saturation):
+    556 
+--> 557         self.establish_variables(x, y, hue, data, orient, order, hue_order)
+    558         self.establish_colors(color, palette, saturation)
+    559         self.estimate_densities(bw, cut, scale, scale_hue, gridsize)
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in establish_variables(self, x, y, hue, data, orient, order, hue_order, units)
+    201                 # Group the numeric data
+    202                 plot_data, value_label = self._group_longform(vals, groups,
+--> 203                                                               group_names)
+    204 
+    205                 # Now handle the hue levels for nested ordering
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in _group_longform(self, vals, grouper, order)
+    240         # Ensure that the groupby will work
+    241         if not isinstance(vals, pd.Series):
+--> 242             vals = pd.Series(vals)
+    243 
+    244         # Group the val data
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/series.py in __init__(self, data, index, dtype, name, copy, fastpath)
+    274                                        raise_cast_failure=True)
+    275 
+--> 276                 data = SingleBlockManager(data, index, fastpath=True)
+    277 
+    278         generic.NDFrame.__init__(self, data, fastpath=True)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, block, axis, do_integrity_check, fastpath)
+   4675 
+   4676         if not isinstance(block, Block):
+-> 4677             block = make_block(block, placement=slice(0, len(axis)), ndim=1)
+   4678 
+   4679         self.blocks = [block]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in make_block(values, placement, klass, ndim, dtype, fastpath)
+   3203                      placement=placement, dtype=dtype)
+   3204 
+-> 3205     return klass(values, ndim=ndim, placement=placement)
+   3206 
+   3207 # TODO: flexible with index=None and/or items=None
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+   2301 
+   2302         super(ObjectBlock, self).__init__(values, ndim=ndim,
+-> 2303                                           placement=placement)
+   2304 
+   2305     @property
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+    123             raise ValueError(
+    124                 'Wrong number of items passed {val}, placement implies '
+--> 125                 '{mgr}'.format(val=len(self.values), mgr=len(self.mgr_locs)))
+    126 
+    127     def _check_ndim(self, values, ndim):
+
+ValueError: Wrong number of items passed 2, placement implies 621461
+
+In [9]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     52 fig = plt.figure(figsize=(14,8))
+     53 ax1 = fig.add_subplot(111)
+---> 54 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY'])
+     55 filename = "./carrier_violin.png"
+     56 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in make_delay_day(ax, x, y)
+     47 
+     48 def make_delay_day(ax, x, y):
+---> 49     sns.violinplot(x,y,ax=ax)
+     50 
+     51 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in violinplot(x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation, ax, **kwargs)
+   2362                              bw, cut, scale, scale_hue, gridsize,
+   2363                              width, inner, split, dodge, orient, linewidth,
+-> 2364                              color, palette, saturation)
+   2365 
+   2366     if ax is None:
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in __init__(self, x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation)
+    555                  color, palette, saturation):
+    556 
+--> 557         self.establish_variables(x, y, hue, data, orient, order, hue_order)
+    558         self.establish_colors(color, palette, saturation)
+    559         self.estimate_densities(bw, cut, scale, scale_hue, gridsize)
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in establish_variables(self, x, y, hue, data, orient, order, hue_order, units)
+    201                 # Group the numeric data
+    202                 plot_data, value_label = self._group_longform(vals, groups,
+--> 203                                                               group_names)
+    204 
+    205                 # Now handle the hue levels for nested ordering
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in _group_longform(self, vals, grouper, order)
+    240         # Ensure that the groupby will work
+    241         if not isinstance(vals, pd.Series):
+--> 242             vals = pd.Series(vals)
+    243 
+    244         # Group the val data
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/series.py in __init__(self, data, index, dtype, name, copy, fastpath)
+    274                                        raise_cast_failure=True)
+    275 
+--> 276                 data = SingleBlockManager(data, index, fastpath=True)
+    277 
+    278         generic.NDFrame.__init__(self, data, fastpath=True)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, block, axis, do_integrity_check, fastpath)
+   4675 
+   4676         if not isinstance(block, Block):
+-> 4677             block = make_block(block, placement=slice(0, len(axis)), ndim=1)
+   4678 
+   4679         self.blocks = [block]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in make_block(values, placement, klass, ndim, dtype, fastpath)
+   3203                      placement=placement, dtype=dtype)
+   3204 
+-> 3205     return klass(values, ndim=ndim, placement=placement)
+   3206 
+   3207 # TODO: flexible with index=None and/or items=None
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+   2301 
+   2302         super(ObjectBlock, self).__init__(values, ndim=ndim,
+-> 2303                                           placement=placement)
+   2304 
+   2305     @property
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+    123             raise ValueError(
+    124                 'Wrong number of items passed {val}, placement implies '
+--> 125                 '{mgr}'.format(val=len(self.values), mgr=len(self.mgr_locs)))
+    126 
+    127     def _check_ndim(self, values, ndim):
+
+ValueError: Wrong number of items passed 2, placement implies 621461
+
+In [10]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     52 fig = plt.figure(figsize=(14,8))
+     53 ax1 = fig.add_subplot(111)
+---> 54 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY'])
+     55 filename = "./carrier_violin.png"
+     56 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in make_delay_day(ax, x, y)
+     47 
+     48 def make_delay_day(ax, x, y):
+---> 49     sns.violinplot(x,y,ax=ax)
+     50 
+     51 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in violinplot(x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation, ax, **kwargs)
+   2362                              bw, cut, scale, scale_hue, gridsize,
+   2363                              width, inner, split, dodge, orient, linewidth,
+-> 2364                              color, palette, saturation)
+   2365 
+   2366     if ax is None:
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in __init__(self, x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation)
+    555                  color, palette, saturation):
+    556 
+--> 557         self.establish_variables(x, y, hue, data, orient, order, hue_order)
+    558         self.establish_colors(color, palette, saturation)
+    559         self.estimate_densities(bw, cut, scale, scale_hue, gridsize)
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in establish_variables(self, x, y, hue, data, orient, order, hue_order, units)
+    201                 # Group the numeric data
+    202                 plot_data, value_label = self._group_longform(vals, groups,
+--> 203                                                               group_names)
+    204 
+    205                 # Now handle the hue levels for nested ordering
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in _group_longform(self, vals, grouper, order)
+    240         # Ensure that the groupby will work
+    241         if not isinstance(vals, pd.Series):
+--> 242             vals = pd.Series(vals)
+    243 
+    244         # Group the val data
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/series.py in __init__(self, data, index, dtype, name, copy, fastpath)
+    274                                        raise_cast_failure=True)
+    275 
+--> 276                 data = SingleBlockManager(data, index, fastpath=True)
+    277 
+    278         generic.NDFrame.__init__(self, data, fastpath=True)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, block, axis, do_integrity_check, fastpath)
+   4675 
+   4676         if not isinstance(block, Block):
+-> 4677             block = make_block(block, placement=slice(0, len(axis)), ndim=1)
+   4678 
+   4679         self.blocks = [block]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in make_block(values, placement, klass, ndim, dtype, fastpath)
+   3203                      placement=placement, dtype=dtype)
+   3204 
+-> 3205     return klass(values, ndim=ndim, placement=placement)
+   3206 
+   3207 # TODO: flexible with index=None and/or items=None
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+   2301 
+   2302         super(ObjectBlock, self).__init__(values, ndim=ndim,
+-> 2303                                           placement=placement)
+   2304 
+   2305     @property
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+    123             raise ValueError(
+    124                 'Wrong number of items passed {val}, placement implies '
+--> 125                 '{mgr}'.format(val=len(self.values), mgr=len(self.mgr_locs)))
+    126 
+    127     def _check_ndim(self, values, ndim):
+
+ValueError: Wrong number of items passed 2, placement implies 621461
+
+In [11]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     52 fig = plt.figure(figsize=(20,8))
+     53 ax1 = fig.add_subplot(111)
+---> 54 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY'])
+     55 filename = "./carrier_violin.png"
+     56 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in make_delay_day(ax, x, y)
+     47 
+     48 def make_delay_day(ax, x, y):
+---> 49     sns.violinplot(x,y,ax=ax)
+     50 
+     51 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in violinplot(x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation, ax, **kwargs)
+   2362                              bw, cut, scale, scale_hue, gridsize,
+   2363                              width, inner, split, dodge, orient, linewidth,
+-> 2364                              color, palette, saturation)
+   2365 
+   2366     if ax is None:
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in __init__(self, x, y, hue, data, order, hue_order, bw, cut, scale, scale_hue, gridsize, width, inner, split, dodge, orient, linewidth, color, palette, saturation)
+    555                  color, palette, saturation):
+    556 
+--> 557         self.establish_variables(x, y, hue, data, orient, order, hue_order)
+    558         self.establish_colors(color, palette, saturation)
+    559         self.estimate_densities(bw, cut, scale, scale_hue, gridsize)
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in establish_variables(self, x, y, hue, data, orient, order, hue_order, units)
+    201                 # Group the numeric data
+    202                 plot_data, value_label = self._group_longform(vals, groups,
+--> 203                                                               group_names)
+    204 
+    205                 # Now handle the hue levels for nested ordering
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/categorical.py in _group_longform(self, vals, grouper, order)
+    240         # Ensure that the groupby will work
+    241         if not isinstance(vals, pd.Series):
+--> 242             vals = pd.Series(vals)
+    243 
+    244         # Group the val data
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/series.py in __init__(self, data, index, dtype, name, copy, fastpath)
+    274                                        raise_cast_failure=True)
+    275 
+--> 276                 data = SingleBlockManager(data, index, fastpath=True)
+    277 
+    278         generic.NDFrame.__init__(self, data, fastpath=True)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, block, axis, do_integrity_check, fastpath)
+   4675 
+   4676         if not isinstance(block, Block):
+-> 4677             block = make_block(block, placement=slice(0, len(axis)), ndim=1)
+   4678 
+   4679         self.blocks = [block]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in make_block(values, placement, klass, ndim, dtype, fastpath)
+   3203                      placement=placement, dtype=dtype)
+   3204 
+-> 3205     return klass(values, ndim=ndim, placement=placement)
+   3206 
+   3207 # TODO: flexible with index=None and/or items=None
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+   2301 
+   2302         super(ObjectBlock, self).__init__(values, ndim=ndim,
+-> 2303                                           placement=placement)
+   2304 
+   2305     @property
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in __init__(self, values, placement, ndim)
+    123             raise ValueError(
+    124                 'Wrong number of items passed {val}, placement implies '
+--> 125                 '{mgr}'.format(val=len(self.values), mgr=len(self.mgr_locs)))
+    126 
+    127     def _check_ndim(self, values, ndim):
+
+ValueError: Wrong number of items passed 2, placement implies 621461
+
+In [12]: jan_df2['DEP_DELAY'].shape
+Out[12]: (621461, 2)
+
+In [13]: jan_df2['DEP_DELAY_GROUP'].shape
+Out[13]: (621461,)
+
+In [14]: jan_df2['DEP_DELAY_GROUP'].columns
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+Traceback (most recent call last):
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2963, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-14-2754243cda7d>", line 1, in <module>
+    jan_df2['DEP_DELAY_GROUP'].columns
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py", line 4368, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'columns'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 1863, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'AttributeError' object has no attribute '_render_traceback_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/IPython/core/ultratb.py", line 1095, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/IPython/core/ultratb.py", line 311, in wrapped
+    return f(*args, **kwargs)
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/IPython/core/ultratb.py", line 345, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/inspect.py", line 1483, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/inspect.py", line 1441, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/Users/emilyquigley/anaconda3/lib/python3.6/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+AttributeError: module has no attribute '__name__'
+---------------------------------------------------------------------------
+
+In [15]: jan_df2['DEP_DELAY']
+Out[15]: 
+        DEP_DELAY  DEP_DELAY
+0           -13.0      -13.0
+1            -4.0       -4.0
+2            -2.0       -2.0
+3            -9.0       -9.0
+4           -14.0      -14.0
+5            -7.0       -7.0
+6            27.0       27.0
+7             8.0        8.0
+8            -5.0       -5.0
+9            -7.0       -7.0
+10           -6.0       -6.0
+11           -9.0       -9.0
+12           -8.0       -8.0
+13            1.0        1.0
+14           -1.0       -1.0
+15           -3.0       -3.0
+16           -7.0       -7.0
+17          -14.0      -14.0
+18           -7.0       -7.0
+19           -4.0       -4.0
+20           -3.0       -3.0
+21          -10.0      -10.0
+22          -18.0      -18.0
+23           -1.0       -1.0
+24           -5.0       -5.0
+...           ...        ...
+621436      192.0      192.0
+621437      179.0      179.0
+621438      192.0      192.0
+621439       49.0       49.0
+621440       20.0       20.0
+621441       81.0       81.0
+621442       70.0       70.0
+621443       -4.0       -4.0
+621444       13.0       13.0
+621445      204.0      204.0
+621446       99.0       99.0
+621447       -6.0       -6.0
+621448       63.0       63.0
+621449       33.0       33.0
+621450      270.0      270.0
+621451       45.0       45.0
+621452       41.0       41.0
+621453       -5.0       -5.0
+621454       -1.0       -1.0
+621455       39.0       39.0
+621456       35.0       35.0
+621457       21.0       21.0
+621458      150.0      150.0
+621459       33.0       33.0
+621460       29.0       29.0
+
+[621461 rows x 2 columns]
+
+In [16]: jan_df2['DEP_DELAY']
+Out[16]: 
+        DEP_DELAY  DEP_DELAY
+0           -13.0      -13.0
+1            -4.0       -4.0
+2            -2.0       -2.0
+3            -9.0       -9.0
+4           -14.0      -14.0
+5            -7.0       -7.0
+6            27.0       27.0
+7             8.0        8.0
+8            -5.0       -5.0
+9            -7.0       -7.0
+10           -6.0       -6.0
+11           -9.0       -9.0
+12           -8.0       -8.0
+13            1.0        1.0
+14           -1.0       -1.0
+15           -3.0       -3.0
+16           -7.0       -7.0
+17          -14.0      -14.0
+18           -7.0       -7.0
+19           -4.0       -4.0
+20           -3.0       -3.0
+21          -10.0      -10.0
+22          -18.0      -18.0
+23           -1.0       -1.0
+24           -5.0       -5.0
+...           ...        ...
+621436      192.0      192.0
+621437      179.0      179.0
+621438      192.0      192.0
+621439       49.0       49.0
+621440       20.0       20.0
+621441       81.0       81.0
+621442       70.0       70.0
+621443       -4.0       -4.0
+621444       13.0       13.0
+621445      204.0      204.0
+621446       99.0       99.0
+621447       -6.0       -6.0
+621448       63.0       63.0
+621449       33.0       33.0
+621450      270.0      270.0
+621451       45.0       45.0
+621452       41.0       41.0
+621453       -5.0       -5.0
+621454       -1.0       -1.0
+621455       39.0       39.0
+621456       35.0       35.0
+621457       21.0       21.0
+621458      150.0      150.0
+621459       33.0       33.0
+621460       29.0       29.0
+
+[621461 rows x 2 columns]
+
+In [17]: run plane_capstone_one_month_test.py
+0         -13.0
+1          -4.0
+2          -2.0
+3          -9.0
+4         -14.0
+5          -7.0
+6          27.0
+7           8.0
+8          -5.0
+9          -7.0
+10         -6.0
+11         -9.0
+12         -8.0
+13          1.0
+14         -1.0
+15         -3.0
+16         -7.0
+17        -14.0
+18         -7.0
+19         -4.0
+20         -3.0
+21        -10.0
+22        -18.0
+23         -1.0
+24         -5.0
+          ...  
+621436    192.0
+621437    179.0
+621438    192.0
+621439     49.0
+621440     20.0
+621441     81.0
+621442     70.0
+621443     -4.0
+621444     13.0
+621445    204.0
+621446     99.0
+621447     -6.0
+621448     63.0
+621449     33.0
+621450    270.0
+621451     45.0
+621452     41.0
+621453     -5.0
+621454     -1.0
+621455     39.0
+621456     35.0
+621457     21.0
+621458    150.0
+621459     33.0
+621460     29.0
+Name: DEP_DELAY, Length: 621461, dtype: float64
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+
+In [18]: run plane_capstone_one_month_test.py
+0         -13.0
+1          -4.0
+2          -2.0
+3          -9.0
+4         -14.0
+5          -7.0
+6          27.0
+7           8.0
+8          -5.0
+9          -7.0
+10         -6.0
+11         -9.0
+12         -8.0
+13          1.0
+14         -1.0
+15         -3.0
+16         -7.0
+17        -14.0
+18         -7.0
+19         -4.0
+20         -3.0
+21        -10.0
+22        -18.0
+23         -1.0
+24         -5.0
+          ...  
+621436    192.0
+621437    179.0
+621438    192.0
+621439     49.0
+621440     20.0
+621441     81.0
+621442     70.0
+621443     -4.0
+621444     13.0
+621445    204.0
+621446     99.0
+621447     -6.0
+621448     63.0
+621449     33.0
+621450    270.0
+621451     45.0
+621452     41.0
+621453     -5.0
+621454     -1.0
+621455     39.0
+621456     35.0
+621457     21.0
+621458    150.0
+621459     33.0
+621460     29.0
+Name: DEP_DELAY, Length: 621461, dtype: float64
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+
+In [19]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     74 plt.xticks(range(len(corr.columns)), corr.columns);
+     75 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 76 corr_matrix(corr,mask,colormap)
+     77 filename = "./correlation_matrix.png"
+     78 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     63 
+     64 def corr_matrix(corr, mask, cmap, annot=True, fmt="summer"):
+---> 65     sns.heatmap(corr, mask, annot, fmt)
+     66 
+     67 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    526     if square:
+    527         ax.set_aspect("equal")
+--> 528     plotter.plot(ax, cbar_ax, kwargs)
+    529     return ax
+    530 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in plot(self, ax, cax, kws)
+    283         # Draw the heatmap
+    284         mesh = ax.pcolormesh(self.plot_data, vmin=self.vmin, vmax=self.vmax,
+--> 285                              cmap=self.cmap, **kws)
+    286 
+    287         # Set the axis limits
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py in inner(ax, *args, **kwargs)
+   1853                         "the Matplotlib list!)" % (label_namer, func.__name__),
+   1854                         RuntimeWarning, stacklevel=2)
+-> 1855             return func(ax, *args, **kwargs)
+   1856 
+   1857         inner.__doc__ = _add_data_doc(inner.__doc__,
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/axes/_axes.py in pcolormesh(self, *args, **kwargs)
+   5950         collection.set_cmap(cmap)
+   5951         collection.set_norm(norm)
+-> 5952         collection.set_clim(vmin, vmax)
+   5953         collection.autoscale_None()
+   5954 
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in set_clim(self, vmin, vmax)
+    315                 pass
+    316         if vmin is not None:
+--> 317             self.norm.vmin = colors._sanitize_extrema(vmin)
+    318         if vmax is not None:
+    319             self.norm.vmax = colors._sanitize_extrema(vmax)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/colors.py in _sanitize_extrema(ex)
+     99         return ex
+    100     try:
+--> 101         ret = np.asscalar(ex)
+    102     except AttributeError:
+    103         ret = float(ex)
+
+~/anaconda3/lib/python3.6/site-packages/numpy/lib/type_check.py in asscalar(a)
+    480 
+    481     """
+--> 482     return a.item()
+    483 
+    484 #-----------------------------------------------------------------------------
+
+ValueError: can only convert an array of size 1 to a Python scalar
+
+In [20]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     74 plt.xticks(range(len(corr.columns)), corr.columns);
+     75 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 76 corr_matrix(corr,mask,colormap)
+     77 filename = "./correlation_matrix.png"
+     78 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     63 
+     64 def corr_matrix(corr, mask, cmap, annot=True, fmt="summer"):
+---> 65     sns.heatmap(corr, mask, cmap, annot, fmt)
+     66 
+     67 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    515     plotter = _HeatMapper(data, vmin, vmax, cmap, center, robust, annot, fmt,
+    516                           annot_kws, cbar, cbar_kws, xticklabels,
+--> 517                           yticklabels, mask)
+    518 
+    519     # Add the pcolormesh kwargs here
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in __init__(self, data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, cbar, cbar_kws, xticklabels, yticklabels, mask)
+    166         # Determine good default values for the colormapping
+    167         self._determine_cmap_params(plot_data, vmin, vmax,
+--> 168                                     cmap, center, robust)
+    169 
+    170         # Sort out the annotations
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in _determine_cmap_params(self, plot_data, vmin, vmax, cmap, center, robust)
+    225         # Recenter a divergent colormap
+    226         if center is not None:
+--> 227             vrange = max(vmax - center, center - vmin)
+    228             normlize = mpl.colors.Normalize(center - vrange, center + vrange)
+    229             cmin, cmax = normlize([vmin, vmax])
+
+TypeError: unsupported operand type(s) for -: 'LinearSegmentedColormap' and 'str'
+
+In [21]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     74 plt.xticks(range(len(corr.columns)), corr.columns);
+     75 plt.yticks(range(len(corr.columns)), corr.columns)
+---> 76 corr_matrix(corr,mask,colormap)
+     77 filename = "./correlation_matrix.png"
+     78 plt.savefig(filename)
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in corr_matrix(corr, mask, cmap, annot, fmt)
+     63 
+     64 def corr_matrix(corr, mask, cmap, annot=True, fmt="summer"):
+---> 65     sns.heatmap(corr, mask, cmap, annot=annot, fmt=fmt)
+     66 
+     67 corr = jan_df2.corr()
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in heatmap(data, vmin, vmax, cmap, center, robust, annot, fmt, annot_kws, linewidths, linecolor, cbar, cbar_kws, cbar_ax, square, xticklabels, yticklabels, mask, ax, **kwargs)
+    526     if square:
+    527         ax.set_aspect("equal")
+--> 528     plotter.plot(ax, cbar_ax, kwargs)
+    529     return ax
+    530 
+
+~/anaconda3/lib/python3.6/site-packages/seaborn/matrix.py in plot(self, ax, cax, kws)
+    283         # Draw the heatmap
+    284         mesh = ax.pcolormesh(self.plot_data, vmin=self.vmin, vmax=self.vmax,
+--> 285                              cmap=self.cmap, **kws)
+    286 
+    287         # Set the axis limits
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py in inner(ax, *args, **kwargs)
+   1853                         "the Matplotlib list!)" % (label_namer, func.__name__),
+   1854                         RuntimeWarning, stacklevel=2)
+-> 1855             return func(ax, *args, **kwargs)
+   1856 
+   1857         inner.__doc__ = _add_data_doc(inner.__doc__,
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/axes/_axes.py in pcolormesh(self, *args, **kwargs)
+   5950         collection.set_cmap(cmap)
+   5951         collection.set_norm(norm)
+-> 5952         collection.set_clim(vmin, vmax)
+   5953         collection.autoscale_None()
+   5954 
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py in set_clim(self, vmin, vmax)
+    315                 pass
+    316         if vmin is not None:
+--> 317             self.norm.vmin = colors._sanitize_extrema(vmin)
+    318         if vmax is not None:
+    319             self.norm.vmax = colors._sanitize_extrema(vmax)
+
+~/anaconda3/lib/python3.6/site-packages/matplotlib/colors.py in _sanitize_extrema(ex)
+     99         return ex
+    100     try:
+--> 101         ret = np.asscalar(ex)
+    102     except AttributeError:
+    103         ret = float(ex)
+
+~/anaconda3/lib/python3.6/site-packages/numpy/lib/type_check.py in asscalar(a)
+    480 
+    481     """
+--> 482     return a.item()
+    483 
+    484 #-----------------------------------------------------------------------------
+
+ValueError: can only convert an array of size 1 to a Python scalar
+
+In [22]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+AS    0.046338
+B6    0.040020
+DL    0.214614
+F9    0.015620
+G4    0.010964
+HA    0.012110
+NK    0.022817
+UA    0.188136
+VX    0.009371
+WN    0.176481
+dtype: float64
+
+In [23]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+             DEP_DELAY
+MKT_CARRIER           
+AA            8.731042
+AS           -0.372192
+B6           19.237224
+DL           11.863234
+F9           15.674977
+G4           10.268418
+HA            1.321552
+NK            5.470804
+UA           10.060127
+VX            2.780735
+WN            7.852548
+
+In [24]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+AS    0.046338
+B6    0.040020
+DL    0.214614
+F9    0.015620
+G4    0.010964
+HA    0.012110
+NK    0.022817
+UA    0.188136
+VX    0.009371
+WN    0.176481
+dtype: float64
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+    185 Z = "+".join(X.columns)
+    186 #
+--> 187 smf.ols(endog=y,exog=X,missing='drop').fit()
+    188 results1 = smf.ols('DEP_DELAY_GROUP ~ '+Z,data=jan_df2).fit()
+    189 print(results1.summary2())
+
+TypeError: from_formula() missing 2 required positional arguments: 'formula' and 'data'
+
+In [25]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+AS    0.046338
+B6    0.040020
+DL    0.214614
+F9    0.015620
+G4    0.010964
+HA    0.012110
+NK    0.022817
+UA    0.188136
+VX    0.009371
+WN    0.176481
+dtype: float64
+                   Results: Ordinary least squares
+=====================================================================
+Model:              OLS              Adj. R-squared:     0.009       
+Dependent Variable: DEP_DELAY_GROUP  AIC:                2725894.6162
+Date:               2018-10-10 12:58 BIC:                2726030.6941
+No. Observations:   621461           Log-Likelihood:     -1.3629e+06 
+Df Model:           11               F-statistic:        503.2       
+Df Residuals:       621449           Prob (F-statistic): 0.00        
+R-squared:          0.009            Scale:              4.7038      
+----------------------------------------------------------------------
+                  Coef.   Std.Err.     t      P>|t|    [0.025   0.975]
+----------------------------------------------------------------------
+Intercept        -0.0549    0.0071   -7.7648  0.0000  -0.0688  -0.0411
+DEP_TIME_BLK      0.0048    0.0005    9.3157  0.0000   0.0038   0.0059
+AS               -0.5212    0.0139  -37.6058  0.0000  -0.5484  -0.4940
+B6                0.6979    0.0148   47.2768  0.0000   0.6690   0.7268
+DL                0.1029    0.0080   12.8656  0.0000   0.0872   0.1186
+F9                0.3957    0.0227   17.4643  0.0000   0.3513   0.4401
+G4                0.1336    0.0268    4.9816  0.0000   0.0810   0.1861
+HA               -0.4701    0.0256  -18.3879  0.0000  -0.5203  -0.4200
+NK               -0.2275    0.0190  -11.9824  0.0000  -0.2647  -0.1903
+UA                0.0340    0.0083    4.0933  0.0000   0.0177   0.0503
+VX               -0.2881    0.0289   -9.9610  0.0000  -0.3448  -0.2314
+WN               -0.0054    0.0085   -0.6428  0.5203  -0.0220   0.0111
+---------------------------------------------------------------------
+Omnibus:             440786.387     Durbin-Watson:        1.680      
+Prob(Omnibus):       0.000          Jarque-Bera (JB):     5744022.952
+Skew:                3.416          Prob(JB):             0.000      
+Kurtosis:            16.235         Condition No.:        112        
+=====================================================================
+
+
+In [26]: run plane_capstone_one_month_test.py
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     44 # print(df2.info())
+     45 
+---> 46 jan_df2_mean = impute_df(jan_df2, IterativeImputer())
+     47 print(jan_df2_mean)
+     48 
+
+NameError: name 'IterativeImputer' is not defined
+
+In [27]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     45 # print(df2.info())
+     46 
+---> 47 jan_df2_mean = impute_df(jan_df2, IterativeImputer())
+     48 print(jan_df2_mean)
+     49 
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in impute_df(df, algorithm)
+     42 def impute_df(df, algorithm):
+     43    """Returns completed dataframe given an imputation algorithm"""
+---> 44    return pd.DataFrame(data=algorithm.fit_transform(df), columns=df.columns, index=df.index)
+     45 # print(df2.info())
+     46 
+
+~/anaconda3/lib/python3.6/site-packages/fancyimpute/iterative_imputer.py in fit_transform(self, X, y)
+    893 
+    894         self.initial_imputer_ = None
+--> 895         X, Xt, mask_missing_values = self._initial_imputation(X)
+    896 
+    897         if self.n_iter == 0:
+
+~/anaconda3/lib/python3.6/site-packages/fancyimpute/iterative_imputer.py in _initial_imputation(self, X)
+    832 
+    833         X = check_array(X, dtype=FLOAT_DTYPES, order="F",
+--> 834                         force_all_finite=force_all_finite)
+    835         _check_inputs_dtype(X, self.missing_values)
+    836 
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/utils/validation.py in check_array(array, accept_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, warn_on_dtype, estimator)
+    431                                       force_all_finite)
+    432     else:
+--> 433         array = np.array(array, dtype=dtype, order=order, copy=copy)
+    434 
+    435         if ensure_2d:
+
+ValueError: could not convert string to float: '1600-1659'
+
+In [28]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     50 # print(df2.info())
+     51 
+---> 52 jan_df2_mean = impute_df(jan_df2, IterativeImputer())
+     53 print(jan_df2_mean)
+     54 
+
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in impute_df(df, algorithm)
+     47 def impute_df(df, algorithm):
+     48    """Returns completed dataframe given an imputation algorithm"""
+---> 49    return pd.DataFrame(data=algorithm.fit_transform(df), columns=df.columns, index=df.index)
+     50 # print(df2.info())
+     51 
+
+~/anaconda3/lib/python3.6/site-packages/fancyimpute/iterative_imputer.py in fit_transform(self, X, y)
+    893 
+    894         self.initial_imputer_ = None
+--> 895         X, Xt, mask_missing_values = self._initial_imputation(X)
+    896 
+    897         if self.n_iter == 0:
+
+~/anaconda3/lib/python3.6/site-packages/fancyimpute/iterative_imputer.py in _initial_imputation(self, X)
+    832 
+    833         X = check_array(X, dtype=FLOAT_DTYPES, order="F",
+--> 834                         force_all_finite=force_all_finite)
+    835         _check_inputs_dtype(X, self.missing_values)
+    836 
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/utils/validation.py in check_array(array, accept_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, warn_on_dtype, estimator)
+    431                                       force_all_finite)
+    432     else:
+--> 433         array = np.array(array, dtype=dtype, order=order, copy=copy)
+    434 
+    435         if ensure_2d:
+
+ValueError: could not convert string to float: 'B'
+
+In [29]: jan_df2.describe()
+Out[29]: 
+          MONTH    DAY_OF_WEEK   CRS_DEP_TIME       DEP_TIME      DEP_DELAY  \
+count  621461.0  621461.000000  621461.000000  602890.000000  602399.000000   
+mean        1.0       3.735357    1326.563878    1333.335882       9.699860   
+std         0.0       1.985584     483.644687     493.226616      47.478962   
+min         1.0       1.000000       1.000000       1.000000   -1280.000000   
+25%         1.0       2.000000     916.000000     924.000000      -6.000000   
+50%         1.0       4.000000    1320.000000    1329.000000      -3.000000   
+75%         1.0       5.000000    1730.000000    1737.000000       6.000000   
+max         1.0       7.000000    2359.000000    2400.000000    2007.000000   
+
+            TAXI_OUT     WHEELS_OFF      WHEELS_ON        TAXI_IN  \
+count  601753.000000  601762.000000  601228.000000  601219.000000   
+mean       17.865021    1359.808280    1476.551990       7.490016   
+std        10.658173     493.039381     514.968248       5.906399   
+min         1.000000       1.000000       1.000000       0.000000   
+25%        11.000000     941.000000    1059.000000       4.000000   
+50%        15.000000    1343.000000    1511.000000       6.000000   
+75%        21.000000    1753.000000    1909.000000       9.000000   
+max      1394.000000    2400.000000    2400.000000     258.000000   
+
+           CANCELLED  CARRIER_DELAY  WEATHER_DELAY      NAS_DELAY  \
+count  621461.000000  107792.000000  107792.000000  107792.000000   
+mean        0.030534      21.842985       4.699904      14.032739   
+std         0.172053      66.650893      36.149240      31.804694   
+min         0.000000       0.000000       0.000000       0.000000   
+25%         0.000000       0.000000       0.000000       0.000000   
+50%         0.000000       0.000000       0.000000       2.000000   
+75%         0.000000      19.000000       0.000000      19.000000   
+max         1.000000    2007.000000    1682.000000    1346.000000   
+
+       SECURITY_DELAY  LATE_AIRCRAFT_DELAY   FLIGHTS  DEP_DELAY_GROUP  \
+count   107792.000000        107792.000000  621461.0    602399.000000   
+mean         0.095480            26.866075       1.0         0.014104   
+std          3.271919            53.165995       0.0         2.212641   
+min          0.000000             0.000000       1.0        -2.000000   
+25%          0.000000             0.000000       1.0        -1.000000   
+50%          0.000000             2.000000       1.0        -1.000000   
+75%          0.000000            32.000000       1.0         0.000000   
+max        593.000000          1648.000000       1.0        12.000000   
+
+        DEP_TIME_BLK  
+count  621461.000000  
+mean        8.923456  
+std         5.292050  
+min         1.000000  
+25%         4.000000  
+50%         8.000000  
+75%        13.000000  
+max        19.000000  
+
+In [30]: jan_df2.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 621461 entries, 0 to 621460
+Data columns (total 22 columns):
+MONTH                  621461 non-null int64
+DAY_OF_WEEK            621461 non-null int64
+MKT_CARRIER            621461 non-null object
+ORIGIN_CITY_NAME       621461 non-null object
+DEST_CITY_NAME         621461 non-null object
+CRS_DEP_TIME           621461 non-null int64
+DEP_TIME               602890 non-null float64
+DEP_DELAY              602399 non-null float64
+TAXI_OUT               601753 non-null float64
+WHEELS_OFF             601762 non-null float64
+WHEELS_ON              601228 non-null float64
+TAXI_IN                601219 non-null float64
+CANCELLED              621461 non-null int64
+CANCELLATION_CODE      18976 non-null object
+CARRIER_DELAY          107792 non-null float64
+WEATHER_DELAY          107792 non-null float64
+NAS_DELAY              107792 non-null float64
+SECURITY_DELAY         107792 non-null float64
+LATE_AIRCRAFT_DELAY    107792 non-null float64
+FLIGHTS                621461 non-null int64
+DEP_DELAY_GROUP        602399 non-null float64
+DEP_TIME_BLK           621461 non-null int64
+dtypes: float64(12), int64(6), object(4)
+memory usage: 104.3+ MB
+
+In [31]: jan_df2.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 621461 entries, 0 to 621460
+Data columns (total 22 columns):
+MONTH                  621461 non-null int64
+DAY_OF_WEEK            621461 non-null int64
+MKT_CARRIER            621461 non-null object
+ORIGIN_CITY_NAME       621461 non-null object
+DEST_CITY_NAME         621461 non-null object
+CRS_DEP_TIME           621461 non-null int64
+DEP_TIME               602890 non-null float64
+DEP_DELAY              602399 non-null float64
+TAXI_OUT               601753 non-null float64
+WHEELS_OFF             601762 non-null float64
+WHEELS_ON              601228 non-null float64
+TAXI_IN                601219 non-null float64
+CANCELLED              621461 non-null int64
+CANCELLATION_CODE      18976 non-null object
+CARRIER_DELAY          107792 non-null float64
+WEATHER_DELAY          107792 non-null float64
+NAS_DELAY              107792 non-null float64
+SECURITY_DELAY         107792 non-null float64
+LATE_AIRCRAFT_DELAY    107792 non-null float64
+FLIGHTS                621461 non-null int64
+DEP_DELAY_GROUP        602399 non-null float64
+DEP_TIME_BLK           621461 non-null int64
+dtypes: float64(12), int64(6), object(4)
+memory usage: 104.3+ MB
+
+In [32]: jan_df2.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 621461 entries, 0 to 621460
+Data columns (total 22 columns):
+MONTH                  621461 non-null int64
+DAY_OF_WEEK            621461 non-null int64
+MKT_CARRIER            621461 non-null object
+ORIGIN_CITY_NAME       621461 non-null object
+DEST_CITY_NAME         621461 non-null object
+CRS_DEP_TIME           621461 non-null int64
+DEP_TIME               602890 non-null float64
+DEP_DELAY              602399 non-null float64
+TAXI_OUT               601753 non-null float64
+WHEELS_OFF             601762 non-null float64
+WHEELS_ON              601228 non-null float64
+TAXI_IN                601219 non-null float64
+CANCELLED              621461 non-null int64
+CANCELLATION_CODE      18976 non-null object
+CARRIER_DELAY          107792 non-null float64
+WEATHER_DELAY          107792 non-null float64
+NAS_DELAY              107792 non-null float64
+SECURITY_DELAY         107792 non-null float64
+LATE_AIRCRAFT_DELAY    107792 non-null float64
+FLIGHTS                621461 non-null int64
+DEP_DELAY_GROUP        602399 non-null float64
+DEP_TIME_BLK           621461 non-null int64
+dtypes: float64(12), int64(6), object(4)
+memory usage: 104.3+ MB
+
+In [33]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 621461 entries, 0 to 621460
+Data columns (total 29 columns):
+MONTH                  621461 non-null int64
+DAY_OF_WEEK            621461 non-null int64
+DEST_CITY_NAME         621461 non-null object
+CRS_DEP_TIME           621461 non-null int64
+DEP_TIME               602890 non-null float64
+DEP_DELAY              602399 non-null float64
+TAXI_OUT               601753 non-null float64
+WHEELS_OFF             601762 non-null float64
+WHEELS_ON              601228 non-null float64
+TAXI_IN                601219 non-null float64
+CANCELLED              621461 non-null int64
+CARRIER_DELAY          107792 non-null float64
+WEATHER_DELAY          107792 non-null float64
+NAS_DELAY              107792 non-null float64
+SECURITY_DELAY         107792 non-null float64
+LATE_AIRCRAFT_DELAY    107792 non-null float64
+FLIGHTS                621461 non-null int64
+DEP_DELAY_GROUP        621461 non-null float64
+DEP_TIME_BLK           621461 non-null int64
+AS                     621461 non-null uint8
+B6                     621461 non-null uint8
+DL                     621461 non-null uint8
+F9                     621461 non-null uint8
+G4                     621461 non-null uint8
+HA                     621461 non-null uint8
+NK                     621461 non-null uint8
+UA                     621461 non-null uint8
+VX                     621461 non-null uint8
+WN                     621461 non-null uint8
+dtypes: float64(12), int64(6), object(1), uint8(10)
+memory usage: 96.0+ MB
+None
+^[[A
+^Z
+[2]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+          MONTH    DAY_OF_WEEK   CRS_DEP_TIME       DEP_TIME      DEP_DELAY  \
+count  621461.0  621461.000000  621461.000000  602890.000000  602399.000000   
+mean        1.0       3.735357    1326.563878    1333.335882       9.699860   
+std         0.0       1.985584     483.644687     493.226616      47.478962   
+min         1.0       1.000000       1.000000       1.000000   -1280.000000   
+25%         1.0       2.000000     916.000000     924.000000      -6.000000   
+50%         1.0       4.000000    1320.000000    1329.000000      -3.000000   
+75%         1.0       5.000000    1730.000000    1737.000000       6.000000   
+max         1.0       7.000000    2359.000000    2400.000000    2007.000000   
+
+            TAXI_OUT     WHEELS_OFF      WHEELS_ON        TAXI_IN  \
+count  601753.000000  601762.000000  601228.000000  601219.000000   
+mean       17.865021    1359.808280    1476.551990       7.490016   
+std        10.658173     493.039381     514.968248       5.906399   
+min         1.000000       1.000000       1.000000       0.000000   
+25%        11.000000     941.000000    1059.000000       4.000000   
+50%        15.000000    1343.000000    1511.000000       6.000000   
+75%        21.000000    1753.000000    1909.000000       9.000000   
+max      1394.000000    2400.000000    2400.000000     258.000000   
+
+           CANCELLED  CARRIER_DELAY  WEATHER_DELAY      NAS_DELAY  \
+count  621461.000000  107792.000000  107792.000000  107792.000000   
+mean        0.030534      21.842985       4.699904      14.032739   
+std         0.172053      66.650893      36.149240      31.804694   
+min         0.000000       0.000000       0.000000       0.000000   
+25%         0.000000       0.000000       0.000000       0.000000   
+50%         0.000000       0.000000       0.000000       2.000000   
+75%         0.000000      19.000000       0.000000      19.000000   
+max         1.000000    2007.000000    1682.000000    1346.000000   
+
+       SECURITY_DELAY  LATE_AIRCRAFT_DELAY   FLIGHTS  DEP_DELAY_GROUP  \
+count   107792.000000        107792.000000  621461.0    621461.000000   
+mean         0.095480            26.866075       1.0         0.014104   
+std          3.271919            53.165995       0.0         2.178443   
+min          0.000000             0.000000       1.0        -2.000000   
+25%          0.000000             0.000000       1.0        -1.000000   
+50%          0.000000             2.000000       1.0        -1.000000   
+75%          0.000000            32.000000       1.0         0.000000   
+max        593.000000          1648.000000       1.0        12.000000   
+
+        DEP_TIME_BLK             AS             B6             DL  \
+count  621461.000000  621461.000000  621461.000000  621461.000000   
+mean        8.923456       0.046338       0.040020       0.214614   
+std         5.292050       0.210215       0.196007       0.410554   
+min         1.000000       0.000000       0.000000       0.000000   
+25%         4.000000       0.000000       0.000000       0.000000   
+50%         8.000000       0.000000       0.000000       0.000000   
+75%        13.000000       0.000000       0.000000       0.000000   
+max        19.000000       1.000000       1.000000       1.000000   
+
+                  F9             G4             HA             NK  \
+count  621461.000000  621461.000000  621461.000000  621461.000000   
+mean        0.015620       0.010964       0.012110       0.022817   
+std         0.123999       0.104136       0.109378       0.149320   
+min         0.000000       0.000000       0.000000       0.000000   
+25%         0.000000       0.000000       0.000000       0.000000   
+50%         0.000000       0.000000       0.000000       0.000000   
+75%         0.000000       0.000000       0.000000       0.000000   
+max         1.000000       1.000000       1.000000       1.000000   
+
+                  UA             VX             WN  
+count  621461.000000  621461.000000  621461.000000  
+mean        0.188136       0.009371       0.176481  
+std         0.390821       0.096352       0.381229  
+min         0.000000       0.000000       0.000000  
+25%         0.000000       0.000000       0.000000  
+50%         0.000000       0.000000       0.000000  
+75%         0.000000       0.000000       0.000000  
+max         1.000000       1.000000       1.000000  
+^Z      
+[3]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+^Z
+[4]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+^Z
+[5]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+^[[APython 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_one_month_test.py in <module>()
+     46 
+     47 
+---> 48 jan_df2 = jan_df22.fillna(jan_df2.mean())
+     49 # print(jan_df2.describe())
+     50 
+
+NameError: name 'jan_df2' is not defined
+
+In [2]: run plane_capstone_one_month_test.py
+^Z
+[6]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_one_month_test.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+^Z
+[7]+  Stopped                 ipython
+Emilys-MacBook-Pro:analytics_capstone emilyquigley$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: run plane_capstone_small.py
+ERROR:root:File `'plane_capstone_small.py'` not found.
+
+In [2]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df2({'DEST_CITY_NAME' : 'New York, NY', 'ORIGIN_CITY_NAME' : 'Denver, CO'})
+
+NameError: name 'jan_df2' is not defined
+
+In [3]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df({'DEST_CITY_NAME' : 'New York, NY', 'ORIGIN_CITY_NAME' : 'Denver, CO'})
+     42 print(jan_df2.head())
+
+TypeError: 'DataFrame' object is not callable
+
+In [4]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df.loc(['DEST_CITY_NAME'] ==  'New York, NY')
+     42 
+     43 # df.loc[df['favorite_color'] == 'yellow']
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py in __call__(self, axis)
+     96 
+     97         if axis is not None:
+---> 98             axis = self.obj._get_axis_number(axis)
+     99         new_self.axis = axis
+    100         return new_self
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _get_axis_number(self, axis)
+    372                 pass
+    373         raise ValueError('No axis named {0} for object type {1}'
+--> 374                          .format(axis, type(self)))
+    375 
+    376     def _get_axis_name(self, axis):
+
+ValueError: No axis named False for object type <class 'pandas.core.frame.DataFrame'>
+
+In [5]: run plane_capstone_small.py
+ERROR:root:File `'plane_capstone_small.py'` not found.
+
+In [6]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df.loc(jan_df2['DEST_CITY_NAME'] ==  'New York, NY')
+     42 
+     43 # df.loc[df['favorite_color'] == 'yellow']
+
+NameError: name 'jan_df2' is not defined
+
+In [7]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df.loc(jan_df['DEST_CITY_NAME'] ==  'New York, NY')
+     42 
+     43 # df.loc[df['favorite_color'] == 'yellow']
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py in __call__(self, axis)
+     96 
+     97         if axis is not None:
+---> 98             axis = self.obj._get_axis_number(axis)
+     99         new_self.axis = axis
+    100         return new_self
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _get_axis_number(self, axis)
+    362 
+    363     def _get_axis_number(self, axis):
+--> 364         axis = self._AXIS_ALIASES.get(axis, axis)
+    365         if is_integer(axis):
+    366             if axis in self._AXIS_NAMES:
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in __hash__(self)
+   1487     def __hash__(self):
+   1488         raise TypeError('{0!r} objects are mutable, thus they cannot be'
+-> 1489                         ' hashed'.format(self.__class__.__name__))
+   1490 
+   1491     def __iter__(self):
+
+TypeError: 'Series' objects are mutable, thus they cannot be hashed
+
+In [8]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df.filter(jan_df['DEST_CITY_NAME'] ==  ['New York, NY'])
+     42 # (items=['one', 'three'])
+     43 # df.loc[df['favorite_color'] == 'yellow']
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py in wrapper(self, other, axis)
+   1251 
+   1252             with np.errstate(all='ignore'):
+-> 1253                 res = na_op(values, other)
+   1254             if is_scalar(res):
+   1255                 raise TypeError('Could not compare {typ} type with Series'
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py in na_op(x, y)
+   1138 
+   1139         elif is_object_dtype(x.dtype):
+-> 1140             result = _comp_method_OBJECT_ARRAY(op, x, y)
+   1141 
+   1142         elif is_datetimelike_v_numeric(x, y):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py in _comp_method_OBJECT_ARRAY(op, x, y)
+   1115             y = y.values
+   1116 
+-> 1117         result = libops.vec_compare(x, y, op)
+   1118     else:
+   1119         result = libops.scalar_compare(x, y, op)
+
+pandas/_libs/ops.pyx in pandas._libs.ops.vec_compare()
+
+ValueError: Arrays were different lengths: 621461 vs 1
+
+In [9]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df.filter('DEST_CITY_NAME' ==  ['New York, NY'])
+     42 # (items=['one', 'three'])
+     43 # df.loc[df['favorite_color'] == 'yellow']
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in filter(self, items, like, regex, axis)
+   3894             name = self._get_axis_name(axis)
+   3895             return self.reindex(
+-> 3896                 **{name: [r for r in items if r in labels]})
+   3897         elif like:
+   3898             def f(x):
+
+TypeError: 'bool' object is not iterable
+
+In [10]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 
+---> 41 jan_df2 = jan_df.filter('DEST_CITY_NAME' ==  'New York, NY')
+     42 # (items=['one', 'three'])
+     43 # df.loc[df['favorite_color'] == 'yellow']
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in filter(self, items, like, regex, axis)
+   3894             name = self._get_axis_name(axis)
+   3895             return self.reindex(
+-> 3896                 **{name: [r for r in items if r in labels]})
+   3897         elif like:
+   3898             def f(x):
+
+TypeError: 'bool' object is not iterable
+
+In [11]: run plane_capstone_smaller.py
+     QUARTER  MONTH  DAY_OF_MONTH  DAY_OF_WEEK  FL_DATE MKT_UNIQUE_CARRIER  \
+21         1      1            27            6  1/27/18                 UA   
+27         1      1            27            6  1/27/18                 UA   
+67         1      1            27            6  1/27/18                 UA   
+182        1      1            26            5  1/26/18                 UA   
+274        1      1            26            5  1/26/18                 UA   
+
+    BRANDED_CODE_SHARE  MKT_CARRIER_AIRLINE_ID MKT_CARRIER  \
+21                  UA                   19977          UA   
+27                  UA                   19977          UA   
+67                  UA                   19977          UA   
+182                 UA                   19977          UA   
+274                 UA                   19977          UA   
+
+     MKT_CARRIER_FL_NUM SCH_OP_UNIQUE_CARRIER  SCH_OP_CARRIER_AIRLINE_ID  \
+21                  347                   NaN                        NaN   
+27                  341                   NaN                        NaN   
+67                  303                   NaN                        NaN   
+182                2422                   NaN                        NaN   
+274                2094                   NaN                        NaN   
+
+    SCH_OP_CARRIER  SCH_OP_CARRIER_FL_NUM OP_UNIQUE_CARRIER  \
+21             NaN                    NaN                UA   
+27             NaN                    NaN                UA   
+67             NaN                    NaN                UA   
+182            NaN                    NaN                UA   
+274            NaN                    NaN                UA   
+
+     OP_CARRIER_AIRLINE_ID OP_CARRIER TAIL_NUM  OP_CARRIER_FL_NUM  \
+21                   19977         UA   N441UA                347   
+27                   19977         UA   N23708                341   
+67                   19977         UA   N69806                303   
+182                  19977         UA   N66897               2422   
+274                  19977         UA   N14735               2094   
+
+     ORIGIN_AIRPORT_ID  ORIGIN_AIRPORT_SEQ_ID  ORIGIN_CITY_MARKET_ID ORIGIN  \
+21               11292                1129202                  30325    DEN   
+27               12266                1226603                  31453    IAH   
+67               11292                1129202                  30325    DEN   
+182              13930                1393006                  30977    ORD   
+274              12266                1226603                  31453    IAH   
+
+    ORIGIN_CITY_NAME ORIGIN_STATE_ABR      ...        DIV2_TAIL_NUM  \
+21        Denver, CO               CO      ...                  NaN   
+27       Houston, TX               TX      ...                  NaN   
+67        Denver, CO               CO      ...                  NaN   
+182      Chicago, IL               IL      ...                  NaN   
+274      Houston, TX               TX      ...                  NaN   
+
+    DIV3_AIRPORT  DIV3_AIRPORT_ID  DIV3_AIRPORT_SEQ_ID  DIV3_WHEELS_ON  \
+21           NaN              NaN                  NaN             NaN   
+27           NaN              NaN                  NaN             NaN   
+67           NaN              NaN                  NaN             NaN   
+182          NaN              NaN                  NaN             NaN   
+274          NaN              NaN                  NaN             NaN   
+
+     DIV3_TOTAL_GTIME DIV3_LONGEST_GTIME DIV3_WHEELS_OFF DIV3_TAIL_NUM  \
+21                NaN                NaN             NaN           NaN   
+27                NaN                NaN             NaN           NaN   
+67                NaN                NaN             NaN           NaN   
+182               NaN                NaN             NaN           NaN   
+274               NaN                NaN             NaN           NaN   
+
+     DIV4_AIRPORT DIV4_AIRPORT_ID  DIV4_AIRPORT_SEQ_ID  DIV4_WHEELS_ON  \
+21            NaN             NaN                  NaN             NaN   
+27            NaN             NaN                  NaN             NaN   
+67            NaN             NaN                  NaN             NaN   
+182           NaN             NaN                  NaN             NaN   
+274           NaN             NaN                  NaN             NaN   
+
+     DIV4_TOTAL_GTIME  DIV4_LONGEST_GTIME  DIV4_WHEELS_OFF  DIV4_TAIL_NUM  \
+21                NaN                 NaN              NaN            NaN   
+27                NaN                 NaN              NaN            NaN   
+67                NaN                 NaN              NaN            NaN   
+182               NaN                 NaN              NaN            NaN   
+274               NaN                 NaN              NaN            NaN   
+
+     DIV5_AIRPORT DIV5_AIRPORT_ID  DIV5_AIRPORT_SEQ_ID  DIV5_WHEELS_ON  \
+21            NaN             NaN                  NaN             NaN   
+27            NaN             NaN                  NaN             NaN   
+67            NaN             NaN                  NaN             NaN   
+182           NaN             NaN                  NaN             NaN   
+274           NaN             NaN                  NaN             NaN   
+
+     DIV5_TOTAL_GTIME  DIV5_LONGEST_GTIME  DIV5_WHEELS_OFF  DIV5_TAIL_NUM  
+21                NaN                 NaN              NaN            NaN  
+27                NaN                 NaN              NaN            NaN  
+67                NaN                 NaN              NaN            NaN  
+182               NaN                 NaN              NaN            NaN  
+274               NaN                 NaN              NaN            NaN  
+
+[5 rows x 118 columns]
+
+In [12]: run plane_capstone_smaller.py
+     MONTH  DAY_OF_WEEK MKT_CARRIER DEST_CITY_NAME  CRS_DEP_TIME  DEP_TIME  \
+21       1            6          UA   New York, NY           746     736.0   
+27       1            6          UA   New York, NY          1847    1837.0   
+67       1            6          UA   New York, NY          1020    1011.0   
+182      1            5          UA   New York, NY          2103    2048.0   
+274      1            5          UA   New York, NY          1628    1623.0   
+
+     DEP_DELAY  TAXI_OUT  WHEELS_OFF  WHEELS_ON  TAXI_IN  CANCELLED  \
+21       -10.0      12.0       748.0     1244.0      3.0          0   
+27       -10.0      21.0      1858.0     2235.0      5.0          0   
+67        -9.0      15.0      1026.0     1520.0      5.0          0   
+182      -15.0      26.0      2114.0     2350.0      3.0          0   
+274       -5.0      15.0      1638.0     2027.0      6.0          0   
+
+     CARRIER_DELAY  WEATHER_DELAY  NAS_DELAY  SECURITY_DELAY  \
+21             NaN            NaN        NaN             NaN   
+27             NaN            NaN        NaN             NaN   
+67             NaN            NaN        NaN             NaN   
+182            NaN            NaN        NaN             NaN   
+274            NaN            NaN        NaN             NaN   
+
+     LATE_AIRCRAFT_DELAY  FLIGHTS  DEP_DELAY_GROUP DEP_TIME_BLK  
+21                   NaN        1             -1.0    0700-0759  
+27                   NaN        1             -1.0    1800-1859  
+67                   NaN        1             -1.0    1000-1059  
+182                  NaN        1             -1.0    2100-2159  
+274                  NaN        1             -1.0    1600-1659  
+
+In [13]: run plane_capstone_smaller.py
+      MONTH  DAY_OF_WEEK MKT_CARRIER ORIGIN_CITY_NAME DEST_CITY_NAME  \
+21        1            6          UA       Denver, CO   New York, NY   
+67        1            6          UA       Denver, CO   New York, NY   
+463       1            5          UA       Denver, CO   New York, NY   
+1215      1            5          UA       Denver, CO   New York, NY   
+1259      1            5          UA       Denver, CO   New York, NY   
+
+      CRS_DEP_TIME  DEP_TIME  DEP_DELAY  TAXI_OUT  WHEELS_OFF  WHEELS_ON  \
+21             746     736.0      -10.0      12.0       748.0     1244.0   
+67            1020    1011.0       -9.0      15.0      1026.0     1520.0   
+463           1745    1743.0       -2.0      17.0      1800.0     2309.0   
+1215          1240    1232.0       -8.0      12.0      1244.0     1750.0   
+1259          1126    1136.0       10.0      13.0      1149.0     1653.0   
+
+      TAXI_IN  CANCELLED  CARRIER_DELAY  WEATHER_DELAY  NAS_DELAY  \
+21        3.0          0            NaN            NaN        NaN   
+67        5.0          0            NaN            NaN        NaN   
+463       5.0          0            NaN            NaN        NaN   
+1215      3.0          0            NaN            NaN        NaN   
+1259      6.0          0            NaN            NaN        NaN   
+
+      SECURITY_DELAY  LATE_AIRCRAFT_DELAY  FLIGHTS  DEP_DELAY_GROUP  \
+21               NaN                  NaN        1             -1.0   
+67               NaN                  NaN        1             -1.0   
+463              NaN                  NaN        1             -1.0   
+1215             NaN                  NaN        1             -1.0   
+1259             NaN                  NaN        1              0.0   
+
+     DEP_TIME_BLK  
+21      0700-0759  
+67      1000-1059  
+463     1700-1759  
+1215    1200-1259  
+1259    1100-1159  
+
+In [14]: run plane_capstone_smaller.py
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                19
+DEP_DELAY               19
+TAXI_OUT                19
+WHEELS_OFF              19
+WHEELS_ON               20
+TAXI_IN                 20
+CANCELLED                0
+CARRIER_DELAY          328
+WEATHER_DELAY          328
+NAS_DELAY              328
+SECURITY_DELAY         328
+LATE_AIRCRAFT_DELAY    328
+FLIGHTS                  0
+DEP_DELAY_GROUP         19
+DEP_TIME_BLK             0
+dtype: int64
+
+In [15]: jan_df2.shape
+Out[15]: (407, 21)
+
+In [16]: jan_df2.shape
+Out[16]: (407, 21)
+
+In [17]: run plane_capstone_smaller.py
+  File "/Users/emilyquigley/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py", line 48
+    print(pd.isnull(jan_df2).sum())
+        ^
+SyntaxError: invalid syntax
+
+
+In [18]: pd.isnull(jan_df2).sum()
+Out[18]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                19
+DEP_DELAY               19
+TAXI_OUT                19
+WHEELS_OFF              19
+WHEELS_ON               20
+TAXI_IN                 20
+CANCELLED                0
+CARRIER_DELAY          328
+WEATHER_DELAY          328
+NAS_DELAY              328
+SECURITY_DELAY         328
+LATE_AIRCRAFT_DELAY    328
+FLIGHTS                  0
+DEP_DELAY_GROUP         19
+DEP_TIME_BLK             0
+dtype: int64
+
+In [19]: pd.isnull(jan_df2).sum()
+Out[19]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                19
+DEP_DELAY               19
+TAXI_OUT                19
+WHEELS_OFF              19
+WHEELS_ON               20
+TAXI_IN                 20
+CANCELLED                0
+CARRIER_DELAY          328
+WEATHER_DELAY          328
+NAS_DELAY              328
+SECURITY_DELAY         328
+LATE_AIRCRAFT_DELAY    328
+FLIGHTS                  0
+DEP_DELAY_GROUP         19
+DEP_TIME_BLK             0
+dtype: int64
+
+In [20]: run plane_capstone_smaller.py
+  File "/Users/emilyquigley/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py", line 41
+    jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO')] & (jan_df['CANCELLED'] ==  0)]
+                                                                                                                                                 ^
+SyntaxError: invalid syntax
+
+
+In [21]: run plane_capstone_smaller.py
+  File "/Users/emilyquigley/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py", line 41
+    jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO')] & (jan_df['CANCELLED'] ==  '0')]
+                                                                                                                                                   ^
+SyntaxError: invalid syntax
+
+
+In [22]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py:1164: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  result = method(y)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+     40 jan_df = jan_df[keep_columns]
+---> 41 jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO') & (jan_df['CANCELLED'] ==  '0')]
+     42 # jan_df2 = jan_df2[jan_df2['CANCELLED'] != 0
+     43 # print(jan_df2.shape
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py in wrapper(self, other, axis)
+   1251 
+   1252             with np.errstate(all='ignore'):
+-> 1253                 res = na_op(values, other)
+   1254             if is_scalar(res):
+   1255                 raise TypeError('Could not compare {typ} type with Series'
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py in na_op(x, y)
+   1164                     result = method(y)
+   1165                 if result is NotImplemented:
+-> 1166                     raise TypeError("invalid type comparison")
+   1167             else:
+   1168                 result = op(x, y)
+
+TypeError: invalid type comparison
+
+In [23]: run plane_capstone_smaller.py
+
+In [24]: pd.isnull(jan_df2).sum()
+    ...: 
+Out[24]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                 0
+DEP_DELAY                0
+TAXI_OUT                 0
+WHEELS_OFF               0
+WHEELS_ON                1
+TAXI_IN                  1
+CANCELLED                0
+CARRIER_DELAY          309
+WEATHER_DELAY          309
+NAS_DELAY              309
+SECURITY_DELAY         309
+LATE_AIRCRAFT_DELAY    309
+FLIGHTS                  0
+DEP_DELAY_GROUP          0
+DEP_TIME_BLK             0
+dtype: int64
+
+In [25]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     38 
+     39 # 'CANCELLATION_CODE','ORIGIN_CITY_NAME'
+---> 40 jan_df = jan_df[keep_columns]
+     41 jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO') & (jan_df['CANCELLED'] ==  0)]
+     42 jan_df2 = jan_df2['WHEELS_ON'].fillna(jan_df2['WHEELS_ON'].mean())
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2677         if isinstance(key, (Series, np.ndarray, Index, list)):
+   2678             # either boolean or fancy integer index
+-> 2679             return self._getitem_array(key)
+   2680         elif isinstance(key, DataFrame):
+   2681             return self._getitem_frame(key)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_array(self, key)
+   2721             return self._take(indexer, axis=0)
+   2722         else:
+-> 2723             indexer = self.loc._convert_to_indexer(key, axis=1)
+   2724             return self._take(indexer, axis=1)
+   2725 
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py in _convert_to_indexer(self, obj, axis, is_setter)
+   1325                 if mask.any():
+   1326                     raise KeyError('{mask} not in index'
+-> 1327                                    .format(mask=objarr[mask]))
+   1328 
+   1329                 return com._values_from_object(indexer)
+
+KeyError: "['TAXI_INWEATHER_DELAY' 'WHEELS_ONLATE_AIRCRAFT_DELAY'] not in index"
+
+In [26]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3062             try:
+-> 3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'TAXI_IN'
+
+During handling of the above exception, another exception occurred:
+
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     41 jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO') & (jan_df['CANCELLED'] ==  0)]
+     42 jan_df2 = jan_df2['WHEELS_ON'].fillna(jan_df2['WHEELS_ON'].mean())
+---> 43 jan_df2 = jan_df2['TAXI_IN'].fillna(jan_df2['TAXI_IN'].mean())
+     44 # jan_df2 = jan_df2[jan_df2['CANCELLED'] != 0
+     45 # print(jan_df2.shape
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2695         result = self._constructor(self._data.get(key))
+   2696         if result.columns.is_unique:
+-> 2697             result = result[key]
+   2698 
+   2699         return result
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2690         # get column
+   2691         if self.columns.is_unique:
+-> 2692             return self._get_item_cache(key)
+   2693 
+   2694         # duplicate columns & possible reduce dimensionality
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2484         res = cache.get(item)
+   2485         if res is None:
+-> 2486             values = self._data.get(item)
+   2487             res = self._box_item_values(item, values)
+   2488             cache[item] = res
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in get(self, item, fastpath)
+   4113 
+   4114             if not isna(item):
+-> 4115                 loc = self.items.get_loc(item)
+   4116             else:
+   4117                 indexer = np.arange(len(self.items))[isna(self.items)]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+-> 3065                 return self._engine.get_loc(self._maybe_cast_indexer(key))
+   3066 
+   3067         indexer = self.get_indexer([key], method=method, tolerance=tolerance)
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'TAXI_IN'
+
+In [27]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3062             try:
+-> 3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: ('WHEELS_ON', 'TAXI_IN')
+
+During handling of the above exception, another exception occurred:
+
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     40 jan_df = jan_df[keep_columns]
+     41 jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO') & (jan_df['CANCELLED'] ==  0)]
+---> 42 jan_df2 = jan_df2['WHEELS_ON','TAXI_IN'].fillna(jan_df2['WHEELS_ON','TAXI_IN'].mean())
+     43 # jan_df2 = jan_df2['TAXI_IN'].fillna(jan_df2['TAXI_IN'].mean())
+     44 # jan_df2 = jan_df2[jan_df2['CANCELLED'] != 0
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2695         result = self._constructor(self._data.get(key))
+   2696         if result.columns.is_unique:
+-> 2697             result = result[key]
+   2698 
+   2699         return result
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2690         # get column
+   2691         if self.columns.is_unique:
+-> 2692             return self._get_item_cache(key)
+   2693 
+   2694         # duplicate columns & possible reduce dimensionality
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2484         res = cache.get(item)
+   2485         if res is None:
+-> 2486             values = self._data.get(item)
+   2487             res = self._box_item_values(item, values)
+   2488             cache[item] = res
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in get(self, item, fastpath)
+   4113 
+   4114             if not isna(item):
+-> 4115                 loc = self.items.get_loc(item)
+   4116             else:
+   4117                 indexer = np.arange(len(self.items))[isna(self.items)]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+-> 3065                 return self._engine.get_loc(self._maybe_cast_indexer(key))
+   3066 
+   3067         indexer = self.get_indexer([key], method=method, tolerance=tolerance)
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: ('WHEELS_ON', 'TAXI_IN')
+
+In [28]: jan_df.columns
+Out[28]: 
+Index(['MONTH', 'DAY_OF_WEEK', 'MKT_CARRIER', 'ORIGIN_CITY_NAME',
+       'DEST_CITY_NAME', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'TAXI_OUT',
+       'WHEELS_OFF', 'WHEELS_ON', 'TAXI_IN', 'CANCELLED', 'CARRIER_DELAY',
+       'TAXI_IN', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'WHEELS_ON',
+       'LATE_AIRCRAFT_DELAY', 'FLIGHTS', 'DEP_DELAY_GROUP', 'DEP_TIME_BLK'],
+      dtype='object')
+
+In [29]: run plane_capstone_smaller.py
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3062             try:
+-> 3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'TAXI_IN'
+
+During handling of the above exception, another exception occurred:
+
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     41 jan_df2 = jan_df[(jan_df['DEST_CITY_NAME'] ==  'New York, NY') & (jan_df['ORIGIN_CITY_NAME'] ==  'Denver, CO') & (jan_df['CANCELLED'] ==  0)]
+     42 jan_df2 = jan_df2['WHEELS_ON'].fillna(jan_df2['WHEELS_ON'].mean())
+---> 43 jan_df2 = jan_df2['TAXI_IN'].fillna(jan_df2['TAXI_IN'].mean())
+     44 # jan_df2 = jan_df2[jan_df2['CANCELLED'] != 0
+     45 # print(jan_df2.shape
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2695         result = self._constructor(self._data.get(key))
+   2696         if result.columns.is_unique:
+-> 2697             result = result[key]
+   2698 
+   2699         return result
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2690         # get column
+   2691         if self.columns.is_unique:
+-> 2692             return self._get_item_cache(key)
+   2693 
+   2694         # duplicate columns & possible reduce dimensionality
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2484         res = cache.get(item)
+   2485         if res is None:
+-> 2486             values = self._data.get(item)
+   2487             res = self._box_item_values(item, values)
+   2488             cache[item] = res
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in get(self, item, fastpath)
+   4113 
+   4114             if not isna(item):
+-> 4115                 loc = self.items.get_loc(item)
+   4116             else:
+   4117                 indexer = np.arange(len(self.items))[isna(self.items)]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+-> 3065                 return self._engine.get_loc(self._maybe_cast_indexer(key))
+   3066 
+   3067         indexer = self.get_indexer([key], method=method, tolerance=tolerance)
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'TAXI_IN'
+
+In [30]: pd.isnull(jan_df2).sum()
+Out[30]: 
+WHEELS_ON    1
+WHEELS_ON    1
+dtype: int64
+
+In [31]: run plane_capstone_smaller.py
+
+In [32]: pd.isnull(jan_df2).sum()
+Out[32]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                 0
+DEP_DELAY                0
+TAXI_OUT                 0
+WHEELS_OFF               0
+WHEELS_ON                1
+TAXI_IN                  1
+CANCELLED                0
+CARRIER_DELAY          309
+TAXI_IN                  1
+WEATHER_DELAY          309
+NAS_DELAY              309
+SECURITY_DELAY         309
+WHEELS_ON                1
+LATE_AIRCRAFT_DELAY    309
+FLIGHTS                  0
+DEP_DELAY_GROUP          0
+DEP_TIME_BLK             0
+dtype: int64
+
+In [33]: run plane_capstone_smaller.py
+
+In [34]: pd.isnull(jan_df2).sum()
+Out[34]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                 0
+DEP_DELAY                0
+TAXI_OUT                 0
+WHEELS_OFF               0
+WHEELS_ON                1
+TAXI_IN                  1
+CANCELLED                0
+CARRIER_DELAY          309
+TAXI_IN                  1
+WEATHER_DELAY          309
+NAS_DELAY              309
+SECURITY_DELAY         309
+WHEELS_ON                1
+LATE_AIRCRAFT_DELAY    309
+FLIGHTS                  0
+DEP_DELAY_GROUP          0
+DEP_TIME_BLK             0
+dtype: int64
+
+In [35]: jan_df2['WHEELS_ON'].isna()
+Out[35]: 
+        WHEELS_ON  WHEELS_ON
+21          False      False
+67          False      False
+463         False      False
+1215        False      False
+1259        False      False
+1433        False      False
+1499        False      False
+1548        False      False
+1951        False      False
+2697        False      False
+2741        False      False
+2912        False      False
+3027        False      False
+3423        False      False
+4146        False      False
+4190        False      False
+4358        False      False
+4466        False      False
+4854        False      False
+5566        False      False
+5608        False      False
+5774        False      False
+5836        False      False
+5883        False      False
+6279        False      False
+...           ...        ...
+598927      False      False
+599445      False      False
+600426      False      False
+600929      False      False
+601300      False      False
+601834      False      False
+602841      False      False
+602846      False      False
+603359      False      False
+603748      False      False
+604666      False      False
+605515      False      False
+606574      False      False
+607113      False      False
+607482      False      False
+607994      False      False
+608962      False      False
+609463      False      False
+609834      False      False
+610356      False      False
+611347      False      False
+611352      False      False
+611863      False      False
+612262      False      False
+612821      False      False
+
+[388 rows x 2 columns]
+
+In [36]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+
+In [37]: jan_df2['WHEELS_ON'].isna()
+Out[37]: 
+21        False
+67        False
+463       False
+1215      False
+1259      False
+1433      False
+1499      False
+1548      False
+1951      False
+2697      False
+2741      False
+2912      False
+3027      False
+3423      False
+4146      False
+4190      False
+4358      False
+4466      False
+4854      False
+5566      False
+5608      False
+5774      False
+5836      False
+5883      False
+6279      False
+          ...  
+598927    False
+599445    False
+600426    False
+600929    False
+601300    False
+601834    False
+602841    False
+602846    False
+603359    False
+603748    False
+604666    False
+605515    False
+606574    False
+607113    False
+607482    False
+607994    False
+608962    False
+609463    False
+609834    False
+610356    False
+611347    False
+611352    False
+611863    False
+612262    False
+612821    False
+Name: WHEELS_ON, Length: 388, dtype: bool
+
+In [38]: pd.isnull(jan_df2).sum()
+Out[38]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                 0
+DEP_DELAY                0
+TAXI_OUT                 0
+WHEELS_OFF               0
+WHEELS_ON                0
+TAXI_IN                  0
+CANCELLED                0
+CARRIER_DELAY          309
+WEATHER_DELAY          309
+NAS_DELAY              309
+SECURITY_DELAY         309
+LATE_AIRCRAFT_DELAY    309
+FLIGHTS                  0
+DEP_DELAY_GROUP          0
+DEP_TIME_BLK             0
+dtype: int64
+
+In [39]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+
+In [40]: pd.isnull(jan_df2).sum()
+Out[40]: 
+MONTH                    0
+DAY_OF_WEEK              0
+MKT_CARRIER              0
+ORIGIN_CITY_NAME         0
+DEST_CITY_NAME           0
+CRS_DEP_TIME             0
+DEP_TIME                 0
+DEP_DELAY                0
+TAXI_OUT                 0
+WHEELS_OFF               0
+WHEELS_ON                0
+TAXI_IN                  0
+CANCELLED                0
+CARRIER_DELAY          309
+WEATHER_DELAY          309
+NAS_DELAY              309
+SECURITY_DELAY         309
+LATE_AIRCRAFT_DELAY    309
+FLIGHTS                  0
+DEP_DELAY_GROUP          0
+DEP_TIME_BLK             0
+dtype: int64
+
+In [41]: run plane_capstone_smaller.py
+^[[A/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+
+In [42]: pd.isnull(jan_df2).sum()
+Out[42]: 
+MONTH                  0
+DAY_OF_WEEK            0
+MKT_CARRIER            0
+ORIGIN_CITY_NAME       0
+DEST_CITY_NAME         0
+CRS_DEP_TIME           0
+DEP_TIME               0
+DEP_DELAY              0
+TAXI_OUT               0
+WHEELS_OFF             0
+WHEELS_ON              0
+TAXI_IN                0
+CANCELLED              0
+CARRIER_DELAY          0
+WEATHER_DELAY          0
+NAS_DELAY              0
+SECURITY_DELAY         0
+LATE_AIRCRAFT_DELAY    0
+FLIGHTS                0
+DEP_DELAY_GROUP        0
+DEP_TIME_BLK           0
+dtype: int64
+
+In [43]: jan_df2.describe()
+Out[43]: 
+       MONTH  DAY_OF_WEEK  CRS_DEP_TIME     DEP_TIME   DEP_DELAY    TAXI_OUT  \
+count  388.0   388.000000    388.000000   388.000000  388.000000  388.000000   
+mean     1.0     3.760309   1358.113402  1334.559278    9.744845   18.203608   
+std      0.0     2.035035    496.048106   509.022704   34.844050    9.971913   
+min      1.0     1.000000     53.000000    14.000000  -13.000000    8.000000   
+25%      1.0     2.000000   1025.000000  1027.000000   -5.000000   12.000000   
+50%      1.0     3.000000   1205.000000  1223.000000   -2.000000   15.000000   
+75%      1.0     5.000000   1738.000000  1733.750000    8.000000   20.000000   
+max      1.0     7.000000   2359.000000  2359.000000  321.000000   78.000000   
+
+        WHEELS_OFF    WHEELS_ON     TAXI_IN  CANCELLED  CARRIER_DELAY  \
+count   388.000000   388.000000  388.000000      388.0     388.000000   
+mean   1194.618557  1615.697674    7.930233        0.0       2.484536   
+std     535.566940   551.423255    6.512385        0.0      15.524999   
+min       1.000000    33.000000    2.000000        0.0       0.000000   
+25%    1026.750000  1324.000000    4.000000        0.0       0.000000   
+50%    1149.000000  1648.000000    6.000000        0.0       0.000000   
+75%    1628.000000  2115.000000    9.000000        0.0       0.000000   
+max    2359.000000  2348.000000   63.000000        0.0     197.000000   
+
+       WEATHER_DELAY   NAS_DELAY  SECURITY_DELAY  LATE_AIRCRAFT_DELAY  \
+count     388.000000  388.000000           388.0           388.000000   
+mean        0.115979    4.451031             0.0             4.556701   
+std         1.433974   15.016965             0.0            23.709904   
+min         0.000000    0.000000             0.0             0.000000   
+25%         0.000000    0.000000             0.0             0.000000   
+50%         0.000000    0.000000             0.0             0.000000   
+75%         0.000000    0.000000             0.0             0.000000   
+max        24.000000  157.000000             0.0           238.000000   
+
+       FLIGHTS  DEP_DELAY_GROUP  
+count    388.0       388.000000  
+mean       1.0         0.048969  
+std        0.0         2.130175  
+min        1.0        -1.000000  
+25%        1.0        -1.000000  
+50%        1.0        -1.000000  
+75%        1.0         0.000000  
+max        1.0        12.000000  
+
+In [44]: jan_df2.info()
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 388 entries, 21 to 612821
+Data columns (total 21 columns):
+MONTH                  388 non-null int64
+DAY_OF_WEEK            388 non-null int64
+MKT_CARRIER            388 non-null object
+ORIGIN_CITY_NAME       388 non-null object
+DEST_CITY_NAME         388 non-null object
+CRS_DEP_TIME           388 non-null int64
+DEP_TIME               388 non-null float64
+DEP_DELAY              388 non-null float64
+TAXI_OUT               388 non-null float64
+WHEELS_OFF             388 non-null float64
+WHEELS_ON              388 non-null float64
+TAXI_IN                388 non-null float64
+CANCELLED              388 non-null int64
+CARRIER_DELAY          388 non-null float64
+WEATHER_DELAY          388 non-null float64
+NAS_DELAY              388 non-null float64
+SECURITY_DELAY         388 non-null float64
+LATE_AIRCRAFT_DELAY    388 non-null float64
+FLIGHTS                388 non-null int64
+DEP_DELAY_GROUP        388 non-null float64
+DEP_TIME_BLK           388 non-null object
+dtypes: float64(12), int64(5), object(4)
+memory usage: 66.7+ KB
+
+In [45]: jan_df2['DEST_CITY_NAME'].unique
+Out[45]: 
+<bound method Series.unique of 21        New York, NY
+67        New York, NY
+463       New York, NY
+1215      New York, NY
+1259      New York, NY
+1433      New York, NY
+1499      New York, NY
+1548      New York, NY
+1951      New York, NY
+2697      New York, NY
+2741      New York, NY
+2912      New York, NY
+3027      New York, NY
+3423      New York, NY
+4146      New York, NY
+4190      New York, NY
+4358      New York, NY
+4466      New York, NY
+4854      New York, NY
+5566      New York, NY
+5608      New York, NY
+5774      New York, NY
+5836      New York, NY
+5883      New York, NY
+6279      New York, NY
+              ...     
+598927    New York, NY
+599445    New York, NY
+600426    New York, NY
+600929    New York, NY
+601300    New York, NY
+601834    New York, NY
+602841    New York, NY
+602846    New York, NY
+603359    New York, NY
+603748    New York, NY
+604666    New York, NY
+605515    New York, NY
+606574    New York, NY
+607113    New York, NY
+607482    New York, NY
+607994    New York, NY
+608962    New York, NY
+609463    New York, NY
+609834    New York, NY
+610356    New York, NY
+611347    New York, NY
+611352    New York, NY
+611863    New York, NY
+612262    New York, NY
+612821    New York, NY
+Name: DEST_CITY_NAME, Length: 388, dtype: object>
+
+In [46]: jan_df2['DEST_CITY_NAME'].uniquevalues
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-46-2d7115194a6d> in <module>()
+----> 1 jan_df2['DEST_CITY_NAME'].uniquevalues
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in __getattr__(self, name)
+   4370             if self._info_axis._can_hold_identifiers_and_holds_name(name):
+   4371                 return self[name]
+-> 4372             return object.__getattribute__(self, name)
+   4373 
+   4374     def __setattr__(self, name, value):
+
+AttributeError: 'Series' object has no attribute 'uniquevalues'
+
+In [47]: jan_df2['DEST_CITY_NAME'].unique_values
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-47-c6178ca9cfb8> in <module>()
+----> 1 jan_df2['DEST_CITY_NAME'].unique_values
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in __getattr__(self, name)
+   4370             if self._info_axis._can_hold_identifiers_and_holds_name(name):
+   4371                 return self[name]
+-> 4372             return object.__getattribute__(self, name)
+   4373 
+   4374     def __setattr__(self, name, value):
+
+AttributeError: 'Series' object has no attribute 'unique_values'
+
+In [48]: jan_df2['DEST_CITY_NAME'].unique
+Out[48]: 
+<bound method Series.unique of 21        New York, NY
+67        New York, NY
+463       New York, NY
+1215      New York, NY
+1259      New York, NY
+1433      New York, NY
+1499      New York, NY
+1548      New York, NY
+1951      New York, NY
+2697      New York, NY
+2741      New York, NY
+2912      New York, NY
+3027      New York, NY
+3423      New York, NY
+4146      New York, NY
+4190      New York, NY
+4358      New York, NY
+4466      New York, NY
+4854      New York, NY
+5566      New York, NY
+5608      New York, NY
+5774      New York, NY
+5836      New York, NY
+5883      New York, NY
+6279      New York, NY
+              ...     
+598927    New York, NY
+599445    New York, NY
+600426    New York, NY
+600929    New York, NY
+601300    New York, NY
+601834    New York, NY
+602841    New York, NY
+602846    New York, NY
+603359    New York, NY
+603748    New York, NY
+604666    New York, NY
+605515    New York, NY
+606574    New York, NY
+607113    New York, NY
+607482    New York, NY
+607994    New York, NY
+608962    New York, NY
+609463    New York, NY
+609834    New York, NY
+610356    New York, NY
+611347    New York, NY
+611352    New York, NY
+611863    New York, NY
+612262    New York, NY
+612821    New York, NY
+Name: DEST_CITY_NAME, Length: 388, dtype: object>
+
+In [49]: jan_df2['DEST_CITY_NAME'].unique()
+Out[49]: array(['New York, NY'], dtype=object)
+
+In [50]: jan_df2['ORIGIN_CITY_NAME'].unique()
+Out[50]: array(['Denver, CO'], dtype=object)
+
+In [51]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     53 
+     54 airline_dummy = pd.get_dummies(jan_df2['MKT_CARRIER'])
+---> 55 airline_dummy.drop('AA',axis =1, inplace=True)
+     56 jan_df2.drop('MKT_CARRIER',axis =1, inplace=True) # drop from train
+     57 jan_df2[['AS', 'B6', 'DL', 'F9', 'G4', 'HA', 'NK', 'UA', 'VX', 'WN']] = airline_dummy[['AS','B6', 'DL', 'F9', 'G4', 'HA', 'NK', 'UA', 'VX', 'WN']]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in drop(self, labels, axis, index, columns, level, inplace, errors)
+   3692                                            index=index, columns=columns,
+   3693                                            level=level, inplace=inplace,
+-> 3694                                            errors=errors)
+   3695 
+   3696     @rewrite_axis_style_signature('mapper', [('copy', True),
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in drop(self, labels, axis, index, columns, level, inplace, errors)
+   3106         for axis, labels in axes.items():
+   3107             if labels is not None:
+-> 3108                 obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+   3109 
+   3110         if inplace:
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _drop_axis(self, labels, axis, level, errors)
+   3138                 new_axis = axis.drop(labels, level=level, errors=errors)
+   3139             else:
+-> 3140                 new_axis = axis.drop(labels, errors=errors)
+   3141             dropped = self.reindex(**{axis_name: new_axis})
+   3142             try:
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in drop(self, labels, errors)
+   4385             if errors != 'ignore':
+   4386                 raise KeyError(
+-> 4387                     'labels %s not contained in axis' % labels[mask])
+   4388             indexer = indexer[~mask]
+   4389         return self.delete(indexer)
+
+KeyError: "labels ['AA'] not contained in axis"
+
+In [52]: run plane_capstone_smaller.py
+ 
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+
+In [53]: 
+
+In [53]: airline_dummy.columns
+Out[53]: Index(['B6', 'DL', 'UA', 'WN'], dtype='object')
+
+In [54]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+
+In [55]: jan_df2.info()
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 388 entries, 21 to 612821
+Data columns (total 23 columns):
+MONTH                  388 non-null int64
+DAY_OF_WEEK            388 non-null int64
+ORIGIN_CITY_NAME       388 non-null object
+DEST_CITY_NAME         388 non-null object
+CRS_DEP_TIME           388 non-null int64
+DEP_TIME               388 non-null float64
+DEP_DELAY              388 non-null float64
+TAXI_OUT               388 non-null float64
+WHEELS_OFF             388 non-null float64
+WHEELS_ON              388 non-null float64
+TAXI_IN                388 non-null float64
+CANCELLED              388 non-null int64
+CARRIER_DELAY          388 non-null float64
+WEATHER_DELAY          388 non-null float64
+NAS_DELAY              388 non-null float64
+SECURITY_DELAY         388 non-null float64
+LATE_AIRCRAFT_DELAY    388 non-null float64
+FLIGHTS                388 non-null int64
+DEP_DELAY_GROUP        388 non-null float64
+DEP_TIME_BLK           388 non-null int64
+DL                     388 non-null uint8
+UA                     388 non-null uint8
+WN                     388 non-null uint8
+dtypes: float64(12), int64(6), object(2), uint8(3)
+memory usage: 64.8+ KB
+
+In [56]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+
+In [57]: jan_df2.info()
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 388 entries, 21 to 612821
+Data columns (total 23 columns):
+MONTH                  388 non-null int64
+DAY_OF_WEEK            388 non-null int64
+ORIGIN_CITY_NAME       388 non-null int64
+DEST_CITY_NAME         388 non-null int64
+CRS_DEP_TIME           388 non-null int64
+DEP_TIME               388 non-null float64
+DEP_DELAY              388 non-null float64
+TAXI_OUT               388 non-null float64
+WHEELS_OFF             388 non-null float64
+WHEELS_ON              388 non-null float64
+TAXI_IN                388 non-null float64
+CANCELLED              388 non-null int64
+CARRIER_DELAY          388 non-null float64
+WEATHER_DELAY          388 non-null float64
+NAS_DELAY              388 non-null float64
+SECURITY_DELAY         388 non-null float64
+LATE_AIRCRAFT_DELAY    388 non-null float64
+FLIGHTS                388 non-null int64
+DEP_DELAY_GROUP        388 non-null float64
+DEP_TIME_BLK           388 non-null int64
+DL                     388 non-null uint8
+UA                     388 non-null uint8
+WN                     388 non-null uint8
+dtypes: float64(12), int64(8), uint8(3)
+memory usage: 64.8 KB
+
+In [58]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3062             try:
+-> 3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'MKT_CARRIER'
+
+During handling of the above exception, another exception occurred:
+
+KeyError                                  Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     64 fig = plt.figure(figsize=(20,8))
+     65 ax1 = fig.add_subplot(111)
+---> 66 make_delay_day(ax1, jan_df2['MKT_CARRIER'],jan_df2['DEP_DELAY'])
+     67 filename = "./carrier_violin.png"
+     68 plt.savefig(filename)
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2683             return self._getitem_multilevel(key)
+   2684         else:
+-> 2685             return self._getitem_column(key)
+   2686 
+   2687     def _getitem_column(self, key):
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2690         # get column
+   2691         if self.columns.is_unique:
+-> 2692             return self._get_item_cache(key)
+   2693 
+   2694         # duplicate columns & possible reduce dimensionality
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2484         res = cache.get(item)
+   2485         if res is None:
+-> 2486             values = self._data.get(item)
+   2487             res = self._box_item_values(item, values)
+   2488             cache[item] = res
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/internals.py in get(self, item, fastpath)
+   4113 
+   4114             if not isna(item):
+-> 4115                 loc = self.items.get_loc(item)
+   4116             else:
+   4117                 indexer = np.arange(len(self.items))[isna(self.items)]
+
+~/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3063                 return self._engine.get_loc(key)
+   3064             except KeyError:
+-> 3065                 return self._engine.get_loc(self._maybe_cast_indexer(key))
+   3066 
+   3067         indexer = self.get_indexer([key], method=method, tolerance=tolerance)
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'MKT_CARRIER'
+
+In [59]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+
+In [60]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Documents/galvanize/assessements_study/analytics_capstone/plane_capstone_smaller.py in <module>()
+     76 
+     77 
+---> 78 X_train, X_test, y_train, y_test = train_test_split(X, y)
+     79 Z = "+".join(X.columns)
+     80 results1 = smf.ols('DEP_DELAY_GROUP ~ '+Z,data=jan_df2).fit()
+
+NameError: name 'X' is not defined
+
+In [61]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+                 Results: Ordinary least squares
+==================================================================
+Model:              OLS              Adj. R-squared:     0.021    
+Dependent Variable: DEP_DELAY_GROUP  AIC:                1684.4601
+Date:               2018-10-10 15:05 BIC:                1704.2651
+No. Observations:   388              Log-Likelihood:     -837.23  
+Df Model:           4                F-statistic:        3.122    
+Df Residuals:       383              Prob (F-statistic): 0.0151   
+R-squared:          0.032            Scale:              4.4403   
+-------------------------------------------------------------------
+                Coef.   Std.Err.     t     P>|t|    [0.025   0.975]
+-------------------------------------------------------------------
+Intercept       1.3728    0.7344   1.8692  0.0624  -0.0713   2.8168
+DEP_TIME_BLK   -0.0846    0.0414  -2.0423  0.0418  -0.1661  -0.0032
+DL             -0.3481    0.4925  -0.7067  0.4802  -1.3164   0.6202
+UA             -0.9020    0.4940  -1.8258  0.0687  -1.8734   0.0693
+WN             -0.2048    0.5689  -0.3599  0.7191  -1.3234   0.9138
+------------------------------------------------------------------
+Omnibus:              324.519      Durbin-Watson:         1.817   
+Prob(Omnibus):        0.000        Jarque-Bera (JB):      4757.926
+Skew:                 3.651        Prob(JB):              0.000   
+Kurtosis:             18.523       Condition No.:         100     
+==================================================================
+
+
+In [62]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+                 Results: Ordinary least squares
+==================================================================
+Model:              OLS              Adj. R-squared:     0.027    
+Dependent Variable: DEP_DELAY_GROUP  AIC:                1683.0958
+Date:               2018-10-10 15:06 BIC:                1706.8618
+No. Observations:   388              Log-Likelihood:     -835.55  
+Df Model:           5                F-statistic:        3.178    
+Df Residuals:       382              Prob (F-statistic): 0.00798  
+R-squared:          0.040            Scale:              4.4134   
+-------------------------------------------------------------------
+                Coef.   Std.Err.     t     P>|t|    [0.025   0.975]
+-------------------------------------------------------------------
+Intercept       1.0457    0.7539   1.3871  0.1662  -0.4366   2.5279
+DEP_TIME_BLK   -0.0866    0.0413  -2.0954  0.0368  -0.1678  -0.0053
+DAY_OF_WEEK     0.0957    0.0525   1.8239  0.0689  -0.0075   0.1990
+DL             -0.3615    0.4910  -0.7362  0.4620  -1.3270   0.6040
+UA             -0.9177    0.4926  -1.8629  0.0632  -1.8863   0.0509
+WN             -0.2268    0.5673  -0.3997  0.6896  -1.3423   0.8887
+------------------------------------------------------------------
+Omnibus:              311.659      Durbin-Watson:         1.813   
+Prob(Omnibus):        0.000        Jarque-Bera (JB):      4129.321
+Skew:                 3.484        Prob(JB):              0.000   
+Kurtosis:             17.383       Condition No.:         108     
+==================================================================
+
+
+In [63]: run plane_capstone_smaller.py
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5430: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3787: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  downcast=downcast, **kwargs)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:5886: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._update_inplace(new_data)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  errors=errors)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self[k1] = value[k2]
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/statsmodels/regression/linear_model.py:1633: RuntimeWarning: divide by zero encountered in double_scalars
+  return np.sqrt(eigvals[0]/eigvals[-1])
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/statsmodels/base/model.py:1100: RuntimeWarning: invalid value encountered in true_divide
+  return self.params / self.bse
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:879: RuntimeWarning: invalid value encountered in greater
+  return (self.a < x) & (x < self.b)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:879: RuntimeWarning: invalid value encountered in less
+  return (self.a < x) & (x < self.b)
+/Users/emilyquigley/anaconda3/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:1821: RuntimeWarning: invalid value encountered in less_equal
+  cond2 = cond0 & (x <= self.a)
+                 Results: Ordinary least squares
+==================================================================
+Model:              OLS              Adj. R-squared:     0.848    
+Dependent Variable: DEP_DELAY_GROUP  AIC:                966.6130 
+Date:               2018-10-10 15:07 BIC:                1006.2231
+No. Observations:   388              Log-Likelihood:     -473.31  
+Df Model:           9                F-statistic:        241.1    
+Df Residuals:       378              Prob (F-statistic): 1.17e-150
+R-squared:          0.852            Scale:              0.68933  
+------------------------------------------------------------------
+                     Coef.  Std.Err.    t    P>|t|   [0.025 0.975]
+------------------------------------------------------------------
+Intercept           -0.3711   0.3020 -1.2290 0.2199 -0.9649 0.2227
+DEP_TIME_BLK        -0.0223   0.0165 -1.3509 0.1775 -0.0547 0.0101
+DAY_OF_WEEK         -0.0388   0.0212 -1.8318 0.0678 -0.0804 0.0028
+DL                   0.1828   0.1956  0.9346 0.3506 -0.2018 0.5674
+UA                  -0.0119   0.1969 -0.0603 0.9519 -0.3991 0.3754
+WN                   0.5206   0.2268  2.2955 0.0223  0.0747 0.9665
+CARRIER_DELAY        0.0585   0.0028 21.0320 0.0000  0.0530 0.0639
+WEATHER_DELAY        0.0604   0.0296  2.0382 0.0422  0.0021 0.1186
+NAS_DELAY            0.0457   0.0028 16.0716 0.0000  0.0401 0.0513
+SECURITY_DELAY       0.0000   0.0000     nan    nan  0.0000 0.0000
+LATE_AIRCRAFT_DELAY  0.0613   0.0018 33.3386 0.0000  0.0577 0.0649
+------------------------------------------------------------------
+Omnibus:              77.216       Durbin-Watson:          1.967  
+Prob(Omnibus):        0.000        Jarque-Bera (JB):       999.198
+Skew:                 -0.357       Prob(JB):               0.000  
+Kurtosis:             10.829       Condition No.:          inf    
+==================================================================
+* The condition number is large (inf). This might indicate
+strong multicollinearity or other numerical problems.
+
+In [64]: 
