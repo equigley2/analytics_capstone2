@@ -2,7 +2,9 @@
 
 Example below shows flights from Denver to New York City
 
-<h2> Goal: Use linear regression to predict airline delays in minutes based on origin and destination</h2>
+<h2> Goal:</h2>
+
+Use linear regression to predict airline delays in minutes based on origin and destination</h2>
   
 <h2>Exploratory Data Analysis</h2>
   
