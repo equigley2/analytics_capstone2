@@ -8,8 +8,9 @@ Use linear regression to predict airline delays in minutes based on origin and d
   
 <h2>Exploratory Data Analysis</h2>
   
-* Violin plots - black box show the IQR where 50% of the data resides
-* B6 and DL have a small amount of large numbers in the tails. Their mean is likely higher than the others.
+* Violin plots show the distribution of data
+* Black box shows the IQR where 50% of the data resides
+* JetBlue and Delta have a small amount of large numbers in the tails. Their mean is likely higher than the others.
 * Carrier will be a good predictor going forward
 * Day of week will not be as strong of a predictor
 
@@ -19,8 +20,8 @@ Use linear regression to predict airline delays in minutes based on origin and d
   
 <h2>Feature Engineering</h2>
   
-* Selected features to start with
-* Filled columns with the mean, the rest with 0s
+* Selected features to start with narrowing down to about 30 from approx. 50 rows
+* Filled select columns with the mean, the rest with 0s
 * Created dummy variables and converted all columns to binary
 * Set predicted values as departure delay in minutes
 * Selected features as time of day, day of week, month, delay type, and airline carrier
@@ -44,9 +45,9 @@ Use linear regression to predict airline delays in minutes based on origin and d
 
 <img src = 'images/ols_summaryDtNY.png'>
 
-* Ran my sklearn linear regression taking into account the train and test sets of data
+* Ran my SKlearn linear regression taking into account the train and test sets of data
 * Fit linear regression on X and y training data
-* After my model is fit, predict y values using X test. Returns an array of predicted values
+* After my model is fit, predict y values using X test.
 
 
 <h2>Results</h2>
