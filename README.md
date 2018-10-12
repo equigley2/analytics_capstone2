@@ -36,7 +36,7 @@
 * Day of week is not looking very significant because of the higher p-value
 * Consistent with our EDA
 
-  ![](./ols_summaryDtNY.png)
+[](images/ols_summaryDtNY.png)
 * Ran my sklearn linear regression taking into account the train and test sets of data
 * Fit linear regression on X and y training data
 * After my model is fit, predict y values using X test. Returns an array of predicted values
@@ -47,18 +47,18 @@
 How did the model do? Let's check our R-Squared value.
 
 
-  ![](./test_scoreDtNY2.png)
+  ![](images/test_scoreDtNY2.png)
 
 Average predicted delay flying from Denver to NYC.
 
-  ![](./predicted_meanDtNY2.png)
+  ![](images/predicted_meanDtNY2.png)
 
 
 Q-Q Plot
 * Values above and below the red line indicate these points are more extreme than we would expect with a normal distribution
 
 
-  ![](./qq_pltDtNY.png)
+  ![](images/qq_pltDtNY.png)
 
 
 Variance Inflation Factors
