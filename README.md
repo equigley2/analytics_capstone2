@@ -1,9 +1,11 @@
-<h2>Data: Airline flight data from the Bureau of Transportation
+<h2>Data: Airline flight data from the Bureau of Transportation</h2>
 
->Example below shows flights from Denver to New York City
+Example below shows flights from Denver to New York City
 
-<h2> Goal: Use linear regression to predict airline delays in minutes based on origin and destination
-<h2>Exploratory Data Analysis
+<h2> Goal: Use linear regression to predict airline delays in minutes based on origin and destination</h2>
+  
+<h2>Exploratory Data Analysis</h2>
+  
 * Violin plots - black box show the IQR where 50% of the data resides
 * B6 and DL have a small amount of large numbers in the tails. Their mean is likely higher than the others.
 * Carrier will be a good predictor going forward
@@ -13,7 +15,8 @@
   
 <img src = 'images/day_of_week_violinDtNY.png'>
   
-<h2>Feature Engineering
+<h2>Feature Engineering</h2>
+  
 * Selected features to start with
 * Filled columns with the mean, the rest with 0s
 * Created dummy variables and converted all columns to binary
@@ -28,7 +31,8 @@
 * Standardize and transform X values - since I have different units of measurement in my features I need to convert all columns to a mean of 0 and standard deviation of 1
 
 
-<h2>Modeling
+<h2>Modeling</h2>
+  
 * Split into training and testing data
 * Fit statsmodels OLS regression
 * Adjusted R squared is strong
@@ -37,12 +41,13 @@
 * Consistent with our EDA
 
 [](images/ols_summaryDtNY.png)
+
 * Ran my sklearn linear regression taking into account the train and test sets of data
 * Fit linear regression on X and y training data
 * After my model is fit, predict y values using X test. Returns an array of predicted values
 
 
-<h2>Results
+<h2>Results</h2>
 
 How did the model do? Let's check our R-Squared value.
 
@@ -55,6 +60,7 @@ Average predicted delay flying from Denver to NYC.
 
 
 Q-Q Plot
+
 * Values above and below the red line indicate these points are more extreme than we would expect with a normal distribution
 
 
@@ -62,13 +68,15 @@ Q-Q Plot
 
 
 Variance Inflation Factors
+
 * To better understand the Q-Q plot I looked at the VIFs
 * Measures how much variance increases if your features are correlated
 * All VIFs are < 10. If they were over 10, this would signal high multicollinearity
 
 
-<h2>Future Work
->* Remedy Q-Q plot
+<h2>Future Work</h2>
+  
+* Remedy Q-Q plot
 * Remove DEP_TIME_BLOCK and check impact
 * Fix spacing on plots
 * Complete Lasso and Ridge regression to compare models
