@@ -40,7 +40,7 @@ Example below shows flights from Denver to New York City
 * Day of week is not looking very significant because of the higher p-value
 * Consistent with our EDA
 
-[](images/ols_summaryDtNY.png)
+<img src = 'images/ols_summaryDtNY.png'>
 
 * Ran my sklearn linear regression taking into account the train and test sets of data
 * Fit linear regression on X and y training data
@@ -51,12 +51,11 @@ Example below shows flights from Denver to New York City
 
 How did the model do? Let's check our R-Squared value.
 
-
-![](images/test_scoreDtNY2.png)
+<img src = 'images/test_scoreDtNY2.png'>
 
 Average predicted delay flying from Denver to NYC.
 
-![](images/predicted_meanDtNY2.png)
+<img src = 'images/predicted_meanDtNY2.png'>
 
 
 Q-Q Plot
@@ -64,7 +63,7 @@ Q-Q Plot
 * Values above and below the red line indicate these points are more extreme than we would expect with a normal distribution
 
 
-![](images/qq_pltDtNY.png)
+<img src = 'images/qq_pltDtNY.png'>
 
 
 Variance Inflation Factors
